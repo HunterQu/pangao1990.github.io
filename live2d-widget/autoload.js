@@ -1,4 +1,4 @@
-const live2d_path = "https://pangao1990.github.io/blogs/live2d-widget/";
+const live2d_path = "/blogs/live2d-widget/";
 
 $("<link>").attr({href: live2d_path + "waifu.css", rel: "stylesheet", type: "text/css"}).appendTo("head");
 //waifu.css的绝对路径
