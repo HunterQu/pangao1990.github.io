@@ -1,4 +1,4 @@
-const live2d_path = "/blogs/live2d/";
+const live2d_path = "/live2d/";
 
 $("<link>").attr({href: live2d_path + "waifu.css", rel: "stylesheet", type: "text/css"}).appendTo("head");
 //waifu.css的绝对路径
