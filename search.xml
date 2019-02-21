@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2Fblogs%2F2019%2F02%2F20%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[如何使用Hexo创建个人博客]]></title>
     <url>%2Fblogs%2F2019%2F02%2F16%2F%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[什么是 Hexo？Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 安装 安装 Hexo 比较简单，但在安装前，需要安装如下应用程序。（如果您已经安装了如下程序，请直接执行第2步。） Node.js （安装教程） Git （安装教程） 安装Hexo，打开终端，输入1npm install -g hexo-cli 建站安装 Hexo 完成后，执行下列命令，Hexo 将会在指定文件夹中创建博客框架。12hexo init &lt;folder&gt;cd &lt;folder&gt; 新建完成后，指定文件夹的目录如下： _config.yml =&gt; 网站的 配置 信息，您可以在此配置大部分的参数。 package.json =&gt; 应用程序的信息。 scaffolds =&gt; 模版文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。 source =&gt; 资源文件夹是存放用户资源的地方。除 _posts 文件夹之外，开头命名为 _ (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。 themes =&gt; 主题文件夹。Hexo 会根据主题来生成静态页面。 预览 生成静态文件。在终端中输入 1hexo generate 启动服务器。在终端中输入 1hexo server 默认情况下，在浏览器中访问网址： http://localhost:4000/ 即可预览个人博客。 写作你可以执行下列命令来创建一篇新文章。1hexo new &lt;title&gt; 部署 安装 hexo-deployer-git。 1npm install hexo-deployer-git --save 修改配置。 12345deploy: type: git repo: &lt;repository url&gt; #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io branch: [branch] #published message: [message] 参数 描述 repo 库（Repository）地址 branch 分支名称。如果您使用的是 GitHub 或 GitCafe 的话，程序会尝试自动检测。 message 自定义提交信息 (默认为 Site updated: YYYY-MM-DD HH:mm:ss) 生成站点文件并推送至远程库。执行命令。1hexo clean &amp;&amp; hexo deploy 前者清除站点文件，后者重新生成站点文件并将之推送到指定的库分支。]]></content>
