@@ -132,7 +132,75 @@
 				}
 				var ua = numerator / denom;
 				var ub = numerator2 / denom;
-				return (ua >= 0.0 && ua <= 1.0 && ub>= 0.0 && ub <= 10 20 10000 1.0); } }; var that="this;" isie="!!" window.activexobject; w="document.documentElement.clientWidth," h="document.documentElement.clientHeight;" playerwidth="20," playerheight="30;" playerverts="[" [-1 * 2, -1 2], [playerheight 0] ]; ignoredtypes="["HTML"," "head", "body", "script", "title", "meta", "style", "link", "shape", "line", "group", "image", "stroke", "fill", "skew", "path", "textpath"]; hiddentypes="["BR"," "hr"]; fps="50;" acc="300;" maxspeed="600;" rotspeed="360;" bulletspeed="700;" particlespeed="400;" timebetweenfire="150;" timebetweenblink="250;" timebetweenenemyupdate="isIE" ? : 2000; bulletradius="2;" maxparticles="isIE" 40; maxbullets="isIE" 20; this.flame="{" r: [], y: [] this.toggleblinkstyle="function()" { if (this.updated.blink.isactive) removeclass(document.body, "asteroidsblink"); else addclass(document.body, this.updated.blink.isactive="!this.updated.blink.isActive;" addstylesheet(".asteroidsblink .asteroidsyeahenemy", "outline: 2px dotted red;"); this.pos="new" vector(100, 100); this.lastpos="false;" this.vel="new" vector(0, 0); this.dir="new" 1); this.keyspressed="{};" this.firedat="false;" this.updated="{" enemies: false, flame: new date().gettime(), blink: time: 0, isactive: false this.scrollpos="new" this.bullets="[];" this.enemies="[];" this.dying="[];" this.totalenemies="0;" this.particles="[];" function updateenemyindex() for (var i="0," enemy; enemy="that.enemies[i];" i++) removeclass(enemy, "asteroidsyeahenemy"); all="document.body.getElementsByTagName("*");" that.enemies="[];" el; el="all[i];" (indexof(ignoredtypes, el.tagname.touppercase())="=" && el.prefix !="g_vml_" hasonlytextualchildren(el) el.classname el.offsetheight> 0) {
+				return (ua >= 0.0 && ua <= 1.0 && ub >= 0.0 && ub <= 1.0);
+			}
+		};
+		var that = this;
+		var isIE = !! window.ActiveXObject;
+		var w = document.documentElement.clientWidth,
+			h = document.documentElement.clientHeight;
+		var playerWidth = 20,
+			playerHeight = 30;
+		var playerVerts = [
+			[-1 * playerHeight / 2, -1 * playerWidth / 2],
+			[-1 * playerHeight / 2, playerWidth / 2],
+			[playerHeight / 2, 0]
+		];
+		var ignoredTypes = ["HTML", "HEAD", "BODY", "SCRIPT", "TITLE", "META", "STYLE", "LINK", "SHAPE", "LINE", "GROUP", "IMAGE", "STROKE", "FILL", "SKEW", "PATH", "TEXTPATH"];
+		var hiddenTypes = ["BR", "HR"];
+		var FPS = 50;
+		var acc = 300;
+		var maxSpeed = 600;
+		var rotSpeed = 360;
+		var bulletSpeed = 700;
+		var particleSpeed = 400;
+		var timeBetweenFire = 150;
+		var timeBetweenBlink = 250;
+		var timeBetweenEnemyUpdate = isIE ? 10000 : 2000;
+		var bulletRadius = 2;
+		var maxParticles = isIE ? 20 : 40;
+		var maxBullets = isIE ? 10 : 20;
+		this.flame = {
+			r: [],
+			y: []
+		};
+		this.toggleBlinkStyle = function() {
+			if (this.updated.blink.isActive) {
+				removeClass(document.body, "ASTEROIDSBLINK");
+			} else {
+				addClass(document.body, "ASTEROIDSBLINK");
+			}
+			this.updated.blink.isActive = !this.updated.blink.isActive;
+		};
+		addStylesheet(".ASTEROIDSBLINK .ASTEROIDSYEAHENEMY", "outline: 2px dotted red;");
+		this.pos = new Vector(100, 100);
+		this.lastPos = false;
+		this.vel = new Vector(0, 0);
+		this.dir = new Vector(0, 1);
+		this.keysPressed = {};
+		this.firedAt = false;
+		this.updated = {
+			enemies: false,
+			flame: new Date().getTime(),
+			blink: {
+				time: 0,
+				isActive: false
+			}
+		};
+		this.scrollPos = new Vector(0, 0);
+		this.bullets = [];
+		this.enemies = [];
+		this.dying = [];
+		this.totalEnemies = 0;
+		this.particles = [];
+
+		function updateEnemyIndex() {
+			for (var i = 0, enemy; enemy = that.enemies[i]; i++)
+			removeClass(enemy, "ASTEROIDSYEAHENEMY");
+			var all = document.body.getElementsByTagName("*");
+			that.enemies = [];
+			for (var i = 0, el; el = all[i]; i++) {
+				if (indexOf(ignoredTypes, el.tagName.toUpperCase()) == -1 && el.prefix != "g_vml_" && hasOnlyTextualChildren(el) && el.className != "ASTEROIDSYEAH" && el.offsetHeight > 0) {
 					el.aSize = size(el);
 					that.enemies.push(el);
 					addClass(el, "ASTEROIDSYEAHENEMY");
@@ -670,7 +738,7 @@
 		try {
 			var xamlScript = document.createElement("script");
 			xamlScript.setAttribute("type", "text/xaml");
-			xamlScript.textContent = '<?xml version="1.0"?><canvas xmlns="https://schemas.microsoft.com/client/2007"></canvas>';
+			xamlScript.textContent = '<?xml version="1.0"?><Canvas xmlns="https://schemas.microsoft.com/client/2007"></Canvas>';
 			document.getElementsByTagName("head")[0].appendChild(xamlScript);
 		} catch (e) {}
 		var script = document.createElement("script");
@@ -683,4 +751,4 @@
 		script.src = "https://erkie.github.com/excanvas.js";
 		document.getElementsByTagName("head")[0].appendChild(script);
 	} else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
-})();</=></=>
+})();
