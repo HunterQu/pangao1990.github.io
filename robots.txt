@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /404/
+Allow: /about/
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /top/
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+Disallow: /lib/
+Disallow: /live2d/
+Sitemap: https://pangao1990.github.io/blogs/sitemap.xml
+Sitemap: https://pangao1990.github.io/blogs/baidusitemap.xml
