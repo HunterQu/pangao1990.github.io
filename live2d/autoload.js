@@ -1,6 +1,7 @@
-const live2d_path = "/blogs/live2d-widget/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";
+const live2d_path2 = "/blogs/live2d/";
 
-$("<link>").attr({href: live2d_path + "waifu.css", rel: "stylesheet", type: "text/css"}).appendTo("head");
+$("<link>").attr({href: live2d_path2 + "waifu.css", rel: "stylesheet", type: "text/css"}).appendTo("head");
 //waifu.css的绝对路径
 
 $.ajax({
