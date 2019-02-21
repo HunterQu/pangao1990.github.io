@@ -2,42 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pangao1990.github.io/blogs/top/index.html</loc>
+    <loc>https://my1222.gitee.io/blogs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    
+    <lastmod>2019-02-21T13:37:34.257Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://my1222.gitee.io/blogs/NodeJs%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
+    
+    <lastmod>2019-02-21T13:35:35.483Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://my1222.gitee.io/blogs/Git%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
+    
+    <lastmod>2019-02-21T13:34:31.727Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://my1222.gitee.io/blogs/top/index.html</loc>
     
     <lastmod>2019-02-21T12:53:42.812Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://pangao1990.github.io/blogs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    
-    <lastmod>2019-02-21T09:49:35.061Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://pangao1990.github.io/blogs/404/index.html</loc>
+    <loc>https://my1222.gitee.io/blogs/404/index.html</loc>
     
     <lastmod>2019-02-21T09:09:41.144Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://pangao1990.github.io/blogs/about/index.html</loc>
+    <loc>https://my1222.gitee.io/blogs/about/index.html</loc>
     
     <lastmod>2019-02-21T07:54:43.986Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://pangao1990.github.io/blogs/categories/index.html</loc>
+    <loc>https://my1222.gitee.io/blogs/categories/index.html</loc>
     
     <lastmod>2019-02-20T03:27:49.871Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://pangao1990.github.io/blogs/tags/index.html</loc>
+    <loc>https://my1222.gitee.io/blogs/tags/index.html</loc>
     
     <lastmod>2019-02-20T03:27:36.773Z</lastmod>
     

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pangao1990.github.io/blogs/blogs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://my1222.gitee.io/blogs/blogs/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2019-02-21</lastmod>
+  </url>  <url>
+    <loc>https://my1222.gitee.io/blogs/blogs/NodeJs%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2019-02-21</lastmod>
+  </url>  <url>
+    <loc>https://my1222.gitee.io/blogs/blogs/Git%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2019-02-21</lastmod>
   </url>
 </urlset>
