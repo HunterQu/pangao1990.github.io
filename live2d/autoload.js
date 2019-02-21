@@ -1,12 +1,11 @@
 const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";
 const live2d_path2 = "/blogs/live2d/";
-const live2d_path3 = "https://pangao1990.github.io/blogs/live2d/";
 
-$("<link>").attr({href: live2d_path3 + "waifu.css", rel: "stylesheet", type: "text/css"}).appendTo("head");
+$("<link>").attr({href: live2d_path2 + "waifu.css", rel: "stylesheet", type: "text/css"}).appendTo("head");
 //waifu.css的绝对路径
 
 $.ajax({
-	url: live2d_path3 + "live2d.min.js",
+	url: live2d_path + "live2d.min.js",
 	dataType: "script",
 	cache: true,
 	async: false
@@ -14,7 +13,7 @@ $.ajax({
 //live2d.min.js的绝对路径
 
 $.ajax({
-	url: live2d_path3 + "waifu-tips.js",
+	url: live2d_path2 + "waifu-tips.js",
 	dataType: "script",
 	cache: true,
 	async: false
@@ -23,7 +22,7 @@ $.ajax({
 
 //初始化看板娘，会自动加载指定目录下的 waifu-tips.json
 $(window).on("load", function() {
-	initWidget(live2d_path3 + "waifu-tips.json", "https://live2d.fghrsh.net/api");
+	initWidget(live2d_path + "waifu-tips.json", "https://live2d.fghrsh.net/api");
 });
 //initWidget第一个参数为waifu-tips.json的绝对路径
 //第二个参数为api地址（无需修改）
