@@ -5,7 +5,7 @@ $("<link>").attr({href: live2d_path2 + "waifu.css", rel: "stylesheet", type: "te
 //waifu.css的绝对路径
 
 $.ajax({
-	url: live2d_path + "live2d.min.js",
+	url: live2d_path2 + "live2d.min.js",
 	dataType: "script",
 	cache: true,
 	async: false
