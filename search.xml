@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hexo博客NexT主题美化之顶部加载进度条]]></title>
-    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E9%A1%B6%E9%83%A8%E5%8A%A0%E8%BD%BD%E8%BF%9B%E5%BA%A6%E6%9D%A1%2F</url>
-    <content type="text"><![CDATA[效果图： 方法： 进入博客文件夹的/themes/next文件夹下 1cd /themes/next 下载安装Progress module，如下 1git clone https://github.com/theme-next/theme-next-pace source/lib/pace 在/themes/next/_config.yml中设置，如下 123456789# Progress bar in the top during page loading.# Dependencies: https://github.com/theme-next/theme-next-pacepace: true #是否开启进度条# Themes list:# pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom# pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator# pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal# For examplepace_theme: pace-theme-center-atom #选择进度条样式 不同的样式效果图： pace-theme-big-counter pace-theme-bounce pace-theme-barber-shop pace-theme-center-atom pace-theme-center-circle pace-theme-center-radar pace-theme-center-simple pace-theme-corner-indicator pace-theme-fill-left pace-theme-flash pace-theme-loading-bar pace-theme-mac-osx pace-theme-minimal 后记： 我的网络时好时坏的，所以进度条也是录的时快时慢，请大家见谅。 想知道怎么在Mac下高效的制作gif动图的小伙伴请移步至 Mac屏幕录制GIF动图 为了让大家可以直观的查看进度条的效果，因此我录制了gif动图，如果您觉得这对您有帮助，请随意打赏或评论点赞，谢谢大家。]]></content>
+    <title><![CDATA[AdobePhotoshopCC2019-图形处理中文完美Mac版]]></title>
+    <url>%2FAdobePhotoshopCC2019-%E5%9B%BE%E5%BD%A2%E5%A4%84%E7%90%86%E4%B8%AD%E6%96%87%E5%AE%8C%E7%BE%8EMac%E7%89%88%2F</url>
+    <content type="text"><![CDATA[简介：Adobe Photoshop CC 2019是数字图像处理和编辑的行业标准，提供了一整套专业的修饰工具，并拥有强大的编辑功能，旨在激发灵感。 教程：压缩包内含详细教程。 下载地址：云盘下载 本软件来源于网络，仅供学习使用，请在24小时内删除，本人不承担任何相关责任！若侵犯某些组织或个人的权益，请联系我删除。]]></content>
+      <categories>
+        <category>Mac软件分享</category>
+      </categories>
+      <tags>
+        <tag>软件分享</tag>
+        <tag>Mac</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ImageOptim-无损图片压缩Mac版]]></title>
+    <url>%2FImageOptim-%E6%97%A0%E6%8D%9F%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9Mac%E7%89%88%2F</url>
+    <content type="text"><![CDATA[简介：ImageOptim 是一款小巧免费且开源的 Mac 图片无损压缩优化工具。默认设置下，它的压缩号称是「无损」的，也就是说画质不会被改变，但体积却可以被减小，堪称神器！ 教程ImageOptim 支持 PNG、JPG、GIF 格式的图片压缩优化，你只需将文件拖放到它的界面上即可完成优化 (PS：处理后会覆盖原图 / 原图被移到垃圾桶，可手工恢复)，支持批量，使用上非常简单方便。 效果比对： 下载地址：官方下载]]></content>
+      <categories>
+        <category>Mac软件分享</category>
+      </categories>
+      <tags>
+        <tag>软件分享</tag>
+        <tag>Mac</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[用PS修改GIF动图循环播放次数]]></title>
+    <url>%2F%E7%94%A8PS%E4%BF%AE%E6%94%B9GIF%E5%8A%A8%E5%9B%BE%E5%BE%AA%E7%8E%AF%E6%92%AD%E6%94%BE%E6%AC%A1%E6%95%B0%2F</url>
+    <content type="text"><![CDATA[用Photoshop（Mac中文完美版下载地址）修改GIF动图循环播放次数，一次、三次、无限次循环播放…其实很容易。 教程 用Photoshop打开GIF动图，选择【文件】-&gt;【导出】-&gt;【存储为Web所用格式】，如下： 动画循环选项，选择【永远】或【1次】，存储，如下：]]></content>
+      <categories>
+        <category>IT实用技能</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>GIF</tag>
+        <tag>PS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Mac屏幕录制GIF动图]]></title>
+    <url>%2FMac%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6GIF%E5%8A%A8%E5%9B%BE%2F</url>
+    <content type="text"><![CDATA[在 Mac 上最方便的录制屏幕 GIF 动图的方式就是利用 QQ 软件的录屏功能。 效果图： 教程 鼠标放在 QQ 聊天窗口中的“捕捉屏幕”上，选中“录屏”，如下： 选择想要录屏的区域，如下： 点击【开始录制】，如下： 随后会显示之前录制的视频，选择【下载】，如下： 在保存格式中选择 gif ，点击【存储】，如下： 得到 GIF 动图，如下： 后记： 此时得到的 GIF 动图大小为1.9M，如果想对其大小做简单的压缩，可以用Mac自带的预览打开它。选择【文件】中的【导出】选项，如下： 导出格式选择 gif ，点击【存储】，如下： 可以看到，大小由原来的1.9M压缩为197K，如下： 但是，如此大的压缩比，牺牲的是 GIF 无限循环播放的能力。 如果不在意 GIF 动图仅能播放一次，那么可以使用此方法压缩； 如果想要无限循环播放，又想极致压缩，请移步 用PS修改GIF动图循环播放次数 和 ImageOptim-无损图片压缩Mac版]]></content>
+      <categories>
+        <category>IT实用技能</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>GIF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客NexT主题美化之网站标题栏背景变色]]></title>
+    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E6%A0%8F%E8%83%8C%E6%99%AF%E5%8F%98%E8%89%B2%2F</url>
+    <content type="text"><![CDATA[效果图： 教程打开themes/next/source/css/_custom/custom.styl，在里面新增如下代码：123.site-meta &#123; background: $blue; //天空的颜色，和我的眼镜是绝配&#125;]]></content>
       <categories>
         <category>个人博客</category>
       </categories>
@@ -12,9 +61,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hexo博客NexT主题美化之网站标题栏背景变色]]></title>
-    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E6%A0%8F%E8%83%8C%E6%99%AF%E5%8F%98%E8%89%B2%2F</url>
-    <content type="text"><![CDATA[效果图： 方法：打开themes/next/source/css/_custom/custom.styl，在里面新增如下代码：123.site-meta &#123; background: $blue; //天空的颜色，和我的眼镜是绝配&#125;]]></content>
+    <title><![CDATA[Hexo博客NexT主题美化之顶部加载进度条]]></title>
+    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E9%A1%B6%E9%83%A8%E5%8A%A0%E8%BD%BD%E8%BF%9B%E5%BA%A6%E6%9D%A1%2F</url>
+    <content type="text"><![CDATA[效果图： 教程 进入博客文件夹的/themes/next文件夹下 1cd /themes/next 下载安装Progress module，如下 1git clone https://github.com/theme-next/theme-next-pace source/lib/pace 在/themes/next/_config.yml中设置，如下 123456789# Progress bar in the top during page loading.# Dependencies: https://github.com/theme-next/theme-next-pacepace: true #是否开启进度条# Themes list:# pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom# pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator# pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal# For examplepace_theme: pace-theme-center-atom #选择进度条样式 不同的样式效果图： pace-theme-big-counter pace-theme-bounce pace-theme-barber-shop pace-theme-center-atom pace-theme-center-circle pace-theme-center-radar pace-theme-center-simple pace-theme-corner-indicator pace-theme-fill-left pace-theme-flash pace-theme-loading-bar pace-theme-mac-osx pace-theme-minimal 后记： 我的网络时好时坏的，所以进度条也是录的时快时慢，请大家见谅。 想知道怎么在Mac下高效的制作gif动图的小伙伴请移步至 Mac屏幕录制GIF动图 为了让大家可以直观的查看进度条的效果，因此我录制了gif动图，如果您觉得这对您有帮助，请随意打赏或评论点赞，谢谢大家。]]></content>
       <categories>
         <category>个人博客</category>
       </categories>
@@ -30,6 +79,7 @@
         <category>个人博客</category>
       </categories>
       <tags>
+        <tag>Mac</tag>
         <tag>NodeJs</tag>
       </tags>
   </entry>
@@ -41,6 +91,7 @@
         <category>个人博客</category>
       </categories>
       <tags>
+        <tag>Mac</tag>
         <tag>Git</tag>
       </tags>
   </entry>
