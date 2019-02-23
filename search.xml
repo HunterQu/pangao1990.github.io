@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo博客NexT主题美化之新增看板娘(能说话、能换装)]]></title>
+    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E6%96%B0%E5%A2%9E%E7%9C%8B%E6%9D%BF%E5%A8%98(%E8%83%BD%E8%AF%B4%E8%AF%9D%E3%80%81%E8%83%BD%E6%8D%A2%E8%A3%85)%2F</url>
+    <content type="text"><![CDATA[效果图： 教程： 小白水平： hexo的官方是支持看板娘的，已经封装好了插件，但只是模型，不能说话、不能换装、功能较少。 安装模块，如下： 1npm install --save hexo-helper-live2d 在 站点配置文件 或 主题配置文件 中新增如下内容： 12345678910111213141516171819202122232425# Live2D## https://github.com/EYHN/hexo-helper-live2dlive2d: enable: true # enable: false scriptFrom: local # 默认 pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径) pluginJsPath: lib/ # 脚本文件相对与插件根目录路径 pluginModelPath: assets/ # 模型文件相对与插件根目录路径 # scriptFrom: jsdelivr # jsdelivr CDN # scriptFrom: unpkg # unpkg CDN # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中 debug: false # 调试, 是否在控制台输出日志 model: use: live2d-widget-model-wanko # npm-module package name # use: wanko # 博客根目录/live2d_models/ 下的目录名 # use: ./wives/wanko # 相对于博客根目录的路径 # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url display: position: right width: 150 height: 300 mobile: show: true # 手机中是否展示 小白水平，效果如下： 大神水平： 大神作品，功能齐全。能说话、能换装、能玩游戏、能拍照、还能自定义。 下载 张书樵大神的项目，解压到本地博客目录的themes/next/source下，修改autoload.js文件，如下：将 1const live2d_path = &quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/&quot;; 改为 1const live2d_path = &quot;/live2d-widget/&quot;; 在/themes/next/layout/_layout.swing中,新增如下内容： 1&lt;script src=&quot;/live2d-widget/autolload.js&quot;&gt;&lt;/script&gt; 在 主题配置文件 中,新增如下内容： 12live2d: enable: true 想修改看板娘大小、位置、格式、文本内容等，可查看并修改 waifu-tips.js 、 waifu-tips.json 和 waifu.css。 大神水平，效果如下：]]></content>
+      <categories>
+        <category>个人博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客NexT主题美化之文末统一添加“本文结束”标记]]></title>
+    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E6%96%87%E6%9C%AB%E7%BB%9F%E4%B8%80%E6%B7%BB%E5%8A%A0%E2%80%9C%E6%9C%AC%E6%96%87%E7%BB%93%E6%9D%9F%E2%80%9D%E6%A0%87%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[效果图： 教程： 在目录 themes/next/layout/_macro/ 下添加 passage-end-tag.swig ，内容如下： 12345&lt;div&gt; &#123;% if not is_index %&#125; &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;------ 本文结束------&lt;/div&gt; &#123;% endif %&#125;&lt;/div&gt; 打开 themes/next/layout/_macro/post.swig 文件，新增内容如下: 12345&lt;div&gt; &#123;% if not is_index %&#125; &#123;% include &apos;passage-end-tag.swig&apos; %&#125; &#123;% endif %&#125; &lt;/div&gt; 打开主题配置文件 ，添加代码如下： 123# 文章末尾添加“本文结束”标记passage_end_tag:enabled: true]]></content>
+      <categories>
+        <category>个人博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客NexT主题美化之自定义文章底部版权声明]]></title>
+    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E7%AB%A0%E5%BA%95%E9%83%A8%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E%2F</url>
+    <content type="text"><![CDATA[效果图： 教程： 在目录 themes/next/layout/_macro/ 下添加 my-copyright.swig ，内容如下： 123456789101112131415161718192021222324252627282930313233&#123;% if page.copyright %&#125;&lt;div class=&quot;my_post_copyright&quot;&gt; &lt;script src=&quot;//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js&quot;&gt;&lt;/script&gt; &lt;!-- JS库 sweetalert 可修改路径 --&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js&quot;&gt;&lt;/script&gt; &lt;script src=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js&quot;&gt;&lt;/script&gt; &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css&quot;&gt; &lt;p&gt;&lt;span&gt;本文标题:&lt;/span&gt;&#123;&#123; page.title &#125;&#125;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;span&gt;文章作者:&lt;/span&gt;&#123;&#123; theme.author &#125;&#125;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;span&gt;发布时间:&lt;/span&gt;&#123;&#123; page.date.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt; &lt;p&gt;&lt;span&gt;最后更新:&lt;/span&gt;&#123;&#123; page.updated.format(&quot;YYYY年MM月DD日 - HH:mm:ss&quot;) &#125;&#125;&lt;/p&gt; &lt;p&gt;&lt;span&gt;原始链接:&lt;/span&gt;&lt;a href=&quot;&#123;&#123; url_for(page.path) &#125;&#125;&quot; title=&quot;&#123;&#123; page.title &#125;&#125;&quot;&gt;&#123;&#123; page.permalink &#125;&#125;&lt;/a&gt; &lt;span class=&quot;copy-path&quot; title=&quot;点击复制文章链接&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot; data-clipboard-text=&quot;&#123;&#123; page.permalink &#125;&#125;&quot; aria-label=&quot;复制成功！&quot;&gt;&lt;/i&gt;&lt;/span&gt; &lt;/p&gt; &lt;p&gt;&lt;span&gt;许可协议:&lt;/span&gt;&lt;i class=&quot;fa fa-creative-commons&quot;&gt;&lt;/i&gt; &lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot; target=&quot;_blank&quot; title=&quot;Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)&quot;&gt;署名-非商业性使用-禁止演绎 4.0 国际&lt;/a&gt; 转载请保留原文链接及作者。&lt;/p&gt; &lt;/div&gt;&lt;script&gt; var clipboard = new Clipboard(&apos;.fa-clipboard&apos;); clipboard.on(&apos;success&apos;, $(function()&#123; $(&quot;.fa-clipboard&quot;).click(function()&#123; swal(&#123; title: &quot;&quot;, text: &apos;复制成功&apos;, html: false, timer: 500, showConfirmButton: false &#125;); &#125;); &#125;)); &lt;/script&gt;&#123;% endif %&#125; 在目录 themes/next/source/css/_common/components/post/ 下添加 my-post-copyright.styl，内容如下: 123456789101112131415161718192021222324252627282930313233343536373839404142434445.my_post_copyright &#123; width: 85%; max-width: 45em; margin: 2.8em auto 0; padding: 0.5em 1.0em; border: 1px solid #d3d3d3; font-size: 0.93rem; line-height: 1.6em; word-break: break-all; background: rgba(255,255,255,0.4);&#125;.my_post_copyright p&#123;margin:0;&#125;.my_post_copyright span &#123; display: inline-block; width: 5.2em; color: #333333; // title color font-weight: bold;&#125;.my_post_copyright .raw &#123; margin-left: 1em; width: 5em;&#125;.my_post_copyright a &#123; color: #808080; border-bottom:0;&#125;.my_post_copyright a:hover &#123; color: #0593d3; // link color text-decoration: underline;&#125;.my_post_copyright:hover .fa-clipboard &#123; color: #000;&#125;.my_post_copyright .post-url:hover &#123; font-weight: normal;&#125;.my_post_copyright .copy-path &#123; margin-left: 1em; width: 1em; +mobile()&#123;display:none;&#125;&#125;.my_post_copyright .copy-path:hover &#123; color: #808080; cursor: pointer;&#125; 修改 themes/next/layout/_macro/post.swig ，如下：在代码 12345&#123;% if theme.wechat_subscriber.enabled and not is_index %&#125; &lt;div&gt; &#123;% include &apos;wechat-subscriber.swig&apos; %&#125; &lt;/div&gt;&#123;% endif %&#125; 之前，新增如下代码：12345&lt;div&gt; &#123;% if not is_index %&#125; &#123;% include &apos;my-copyright.swig&apos; %&#125; &#123;% endif %&#125;&lt;/div&gt; 打开 themes/next/source/css/_common/components/post/post.styl 文件，在最后一行增加代码： 1@import &quot;my-post-copyright&quot; 设置新建文章自动开启 copyright ，即新建文章自动显示自定义的版权声明，设置 ～/scaffolds/post.md 文件，如下： 12345---title: &#123;&#123; title &#125;&#125;date: &#123;&#123; date &#125;&#125;copyright: true #新增,开启---]]></content>
+      <categories>
+        <category>个人博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客NexT主题美化之显示当前浏览进度]]></title>
+    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E6%B5%8F%E8%A7%88%E8%BF%9B%E5%BA%A6%2F</url>
+    <content type="text"><![CDATA[效果图： 教程： 打开 themes/next/_config.yml ,搜索关键字 scrollpercent ,把 false 改为 true ，如下： 12# Scroll percent label in b2t button scrollpercent: true 如果想把 top 按钮放在侧边栏,打开 themes/next/_config.yml ,搜索关键字 b2t ,把 false 改为 true ，如下： 12345# Back to top in sidebar b2t: true # Scroll percent label in b2t button scrollpercent: true]]></content>
+      <categories>
+        <category>个人博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客NexT主题美化之评论系统]]></title>
+    <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%2F</url>
+    <content type="text"><![CDATA[效果图： Valine 诞生于2017年8月7日，是一款基于Leancloud的快速、简洁且高效的无后端评论系统。 教程： 登录 Leancloud 官网，注册之后创建一个应用，选择【设置】-&gt;【应用Key】记下你的APP ID和APP Key，如下： 编辑 主题配置文件，搜索 Valine，填入appid 和 appkey，如下： 123456789101112valine: enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version. appid: # your app id appkey: # your app key notify: true # 评论回复邮件提醒, See: https://github.com/xCss/Valine/wiki verify: false # 验证码服务 placeholder: 留言区 # 评论框占位提示符 avatar: mm # 头像配置 guest_info: nick,mail,link # 回复要填写的信息 pageSize: 10 # 评论列表分页，每页条数 visitor: false # 文章访问量统计 comment_count: true # if false, comment count will only be displayed in post page, not in home page 可选操作： 在【Leancloud】 -&gt; 【设置】 -&gt; 【安全中心】 -&gt; 【Web 安全域名】把你的域名加进去，可防止数据被篡改。]]></content>
+      <categories>
+        <category>个人博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo博客NexT主题美化之搜索服务]]></title>
     <url>%2FHexo%E5%8D%9A%E5%AE%A2NexT%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E4%B9%8B%E6%90%9C%E7%B4%A2%E6%9C%8D%E5%8A%A1%2F</url>
     <content type="text"><![CDATA[效果图： 教程： 安装插件hexo-generator-searchdb，如下： 1npm install hexo-generator-searchdb --save 编辑 站点配置文件，新增以下内容到任意位置，如下： 12345search: path: search.xml field: post format: html limit: 10000 编辑 主题配置文件，启用本地搜索功能，如下： 123# Local searchlocal_search: enable: true]]></content>
