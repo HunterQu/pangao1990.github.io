@@ -1,4 +1,4 @@
-https://pangao1990.github.io/微信小程序中的云开发如何使用npm/
+https://pangao1990.github.io/微信小程序中的云开发如何使用npm安装依赖/
 https://pangao1990.github.io/微信小程序与vue的一些区别/
 https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/
 https://pangao1990.github.io/微信小程序中用setData修改数组或对象/
