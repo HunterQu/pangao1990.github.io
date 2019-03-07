@@ -1,5 +1,6 @@
-https://pangao1990.github.io/微信小程序中的云开发如何使用云函数生成二维码/
+https://pangao1990.github.io/微信小程序云开发的云函数中自增函数inc报错/
 https://pangao1990.github.io/微信小程序中的云开发如何检测云函数中的对象是否存在某个属性/
+https://pangao1990.github.io/微信小程序中的云开发如何使用云函数生成二维码/
 https://pangao1990.github.io/微信小程序中的云开发如何使用npm安装依赖/
 https://pangao1990.github.io/微信小程序与vue的一些区别/
 https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/
