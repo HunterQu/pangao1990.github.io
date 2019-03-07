@@ -336,7 +336,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-align-left"></i> <br>时间轴<span class="badge">28</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-align-left"></i> <br>时间轴<span class="badge">29</span></a>
 
   </li>
         
@@ -1672,6 +1672,249 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/常用生物信息学格式介绍/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="潘高">
+      <meta itemprop="description" content="Just do it !<br>(翻译：我只是个搞 IT的！哭笑脸)">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="潘高的小站">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/常用生物信息学格式介绍/" class="post-title-link" itemprop="url">常用生物信息学格式介绍</a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-01-05 23:41:22" itemprop="dateCreated datePublished" datetime="2018-01-05T23:41:22+08:00">2018-01-05</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-07 23:41:49" itemprop="dateModified" datetime="2019-03-07T23:41:49+08:00">2019-03-07</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/生物信息分析/" itemprop="url" rel="index"><span itemprop="name">生物信息分析</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/常用生物信息学格式介绍/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/常用生物信息学格式介绍/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/常用生物信息学格式介绍/" class="leancloud_visitors" data-flag-title="常用生物信息学格式介绍">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">热度：</span>
+              
+                <span class="leancloud-visitors-count"></span>
+                <span>℃</span>
+            </span>
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">14k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">23 分钟</span>
+              
+            </div>
+          
+
+          <!--
+          
+            <div class="post-description">常用生物信息学格式fasta,fastq,sra,gff2,gtf,gff3,bed,sam,bam,vcf的介绍。</div>
+          
+          -->
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="fasta"><a href="#fasta" class="headerlink" title="fasta"></a>fasta</h2><p><a href="http://genetics.bwh.harvard.edu/pph/FASTA.html" target="_blank" rel="noopener">fasta</a> （<a href="https://en.wikipedia.org/wiki/FASTA_format" target="_blank" rel="noopener">维基百科</a>）格式是最基本的表示序列信息（核苷酸或者蛋白质）的格式。这里简单介绍下，fasta格式的文件通常后缀名为 .fasta  或者 .fa ，其实这都无所谓，因为都是文本文件。 fasta 格式文件（可以包含多条序列）中的一条序列的通常表示方法如下：</p>
+          
+          
+          
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/常用生物信息学格式介绍/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+      
+    
+    
+
+    
+    
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/生物信息分析中的测序概念/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -2439,7 +2682,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">28</span>
+                    <span class="site-state-item-count">29</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -2680,7 +2923,7 @@ show_date_time();
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">25k</span>
+    <span title="站点总字数">39k</span>
   
 
   
@@ -2691,7 +2934,7 @@ show_date_time();
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">42 分钟</span>
+    <span title="站点阅读时长">1:04</span>
   
         
 
@@ -3227,6 +3470,8 @@ show_date_time();
 
   
   
+    
+      
     
       
     
