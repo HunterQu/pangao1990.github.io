@@ -436,7 +436,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/Hexo博客NexT主题美化之网站标题栏背景变色/">
+    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/微信小程序与vue的一些区别/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="潘高">
@@ -456,7 +456,7 @@
           <h2 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/Hexo博客NexT主题美化之网站标题栏背景变色/" class="post-title-link" itemprop="url">Hexo博客NexT主题美化之网站标题栏背景变色</a>
+                <a href="/微信小程序与vue的一些区别/" class="post-title-link" itemprop="url">微信小程序与vue的一些区别</a>
               
             
           </h2>
@@ -481,12 +481,24 @@
                 
               
 
-              <time title="创建时间：2019-02-22 01:30:12 / 修改时间：23:15:31" itemprop="dateCreated datePublished" datetime="2019-02-22T01:30:12+08:00">2019-02-22</time>
+              <time title="创建时间：2018-10-24 22:10:55" itemprop="dateCreated datePublished" datetime="2018-10-24T22:10:55+08:00">2018-10-24</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-07 18:02:49" itemprop="dateModified" datetime="2019-03-07T18:02:49+08:00">2019-03-07</time>
               
             
           </span>
@@ -503,7 +515,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/个人博客/" itemprop="url" rel="index"><span itemprop="name">个人博客</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/微信小程序/" itemprop="url" rel="index"><span itemprop="name">微信小程序</span></a></span>
 
                 
                 
@@ -522,8 +534,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/Hexo博客NexT主题美化之网站标题栏背景变色/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/Hexo博客NexT主题美化之网站标题栏背景变色/" itemprop="commentCount"></span>
+                <a href="/微信小程序与vue的一些区别/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/微信小程序与vue的一些区别/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -531,7 +543,7 @@
 
           
           
-            <span id="/Hexo博客NexT主题美化之网站标题栏背景变色/" class="leancloud_visitors" data-flag-title="Hexo博客NexT主题美化之网站标题栏背景变色">
+            <span id="/微信小程序与vue的一些区别/" class="leancloud_visitors" data-flag-title="微信小程序与vue的一些区别">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -557,7 +569,257 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">129</span>
+                <span title="本文字数">1.9k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">3 分钟</span>
+              
+            </div>
+          
+
+          <!--
+          
+            <div class="post-description">开发过程中，微信小程序与vue的一些语法区别。</div>
+          
+          -->
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="1、条件渲染"><a href="#1、条件渲染" class="headerlink" title="1、条件渲染"></a>1、条件渲染</h2><ul>
+<li><p>vue使用 <code>v-if</code> <code>v-else-if</code> <code>v-else</code> 指令，如下：</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div v-if=&quot;color==&apos;red&apos;&quot;&gt;red&lt;div&gt;</span><br><span class="line">&lt;div v-else-if=&quot;color==&apos;orange&apos;&quot;&gt;orange&lt;div&gt;</span><br><span class="line">&lt;div v-else&gt;yellow&lt;div&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>wx使用 <code>wx:if</code> <code>wx:elif</code> <code>wx:else</code> 指令，如下：</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;view wx:if=&quot;&#123;&#123;color==&apos;red&apos;&#125;&#125;&quot;&gt;red&lt;view&gt;</span><br><span class="line">&lt;view wx:elif=&quot;&#123;&#123;color==&apos;orange&apos;&#125;&#125;&quot;&gt;orange&lt;view&gt;</span><br><span class="line">&lt;view wx:else&gt;yellow&lt;view&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+          
+          
+          
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/微信小程序与vue的一些区别/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+      
+    
+    
+
+    
+    
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="潘高">
+      <meta itemprop="description" content="Just do it !<br>(翻译：我只是个搞 IT的！哭笑脸)">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="潘高的小站">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/微信小程序中setData的key是变量怎么办/" class="post-title-link" itemprop="url">微信小程序中setData的key是变量怎么办</a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-10-15 15:50:22" itemprop="dateCreated datePublished" datetime="2018-10-15T15:50:22+08:00">2018-10-15</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-07 18:05:29" itemprop="dateModified" datetime="2019-03-07T18:05:29+08:00">2019-03-07</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/微信小程序/" itemprop="url" rel="index"><span itemprop="name">微信小程序</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/微信小程序中setData的key是变量怎么办/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/微信小程序中setData的key是变量怎么办/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/微信小程序中setData的key是变量怎么办/" class="leancloud_visitors" data-flag-title="微信小程序中setData的key是变量怎么办">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">热度：</span>
+              
+                <span class="leancloud-visitors-count"></span>
+                <span>℃</span>
+            </span>
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">302</span>
               
 
               
@@ -578,7 +840,7 @@
 
           <!--
           
-            <div class="post-description">Hexo博客NexT主题美化教程中的网站标题栏背景变色。</div>
+            <div class="post-description">微信小程序中setData的key是变量该怎么办？</div>
           
           -->
 
@@ -596,14 +858,15 @@
 
       
         
-          <h4 id="效果图："><a href="#效果图：" class="headerlink" title="效果图："></a>效果图：</h4><p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1g0f1j7y7afj30v00c0gm3.jpg" alt="image"></p>
+          <p>代码如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">onclick: function (e) &#123;</span><br><span class="line">    var id = e.target.id</span><br><span class="line">    this.setData(&#123; </span><br><span class="line">        id: e.detail.value </span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>显然data中是多了一个 <code>id</code> 的数据，解决办法是用[]将变量括起来，如下：</p>
           
           
           
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/Hexo博客NexT主题美化之网站标题栏背景变色/#more" rel="contents">
+              <a class="btn" href="/微信小程序中setData的key是变量怎么办/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -667,7 +930,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/Hexo博客NexT主题美化之顶部加载进度条/">
+    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/微信小程序中用setData修改数组或对象/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="潘高">
@@ -687,7 +950,7 @@
           <h2 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/Hexo博客NexT主题美化之顶部加载进度条/" class="post-title-link" itemprop="url">Hexo博客NexT主题美化之顶部加载进度条</a>
+                <a href="/微信小程序中用setData修改数组或对象/" class="post-title-link" itemprop="url">微信小程序中用setData修改数组或对象</a>
               
             
           </h2>
@@ -712,7 +975,7 @@
                 
               
 
-              <time title="创建时间：2019-02-21 21:32:19" itemprop="dateCreated datePublished" datetime="2019-02-21T21:32:19+08:00">2019-02-21</time>
+              <time title="创建时间：2018-10-15 15:40:10" itemprop="dateCreated datePublished" datetime="2018-10-15T15:40:10+08:00">2018-10-15</time>
             
 
             
@@ -729,7 +992,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-02-22 23:14:52" itemprop="dateModified" datetime="2019-02-22T23:14:52+08:00">2019-02-22</time>
+                <time title="修改时间：2019-03-07 18:05:08" itemprop="dateModified" datetime="2019-03-07T18:05:08+08:00">2019-03-07</time>
               
             
           </span>
@@ -746,7 +1009,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/个人博客/" itemprop="url" rel="index"><span itemprop="name">个人博客</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/微信小程序/" itemprop="url" rel="index"><span itemprop="name">微信小程序</span></a></span>
 
                 
                 
@@ -765,8 +1028,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/Hexo博客NexT主题美化之顶部加载进度条/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/Hexo博客NexT主题美化之顶部加载进度条/" itemprop="commentCount"></span>
+                <a href="/微信小程序中用setData修改数组或对象/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/微信小程序中用setData修改数组或对象/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -774,7 +1037,7 @@
 
           
           
-            <span id="/Hexo博客NexT主题美化之顶部加载进度条/" class="leancloud_visitors" data-flag-title="Hexo博客NexT主题美化之顶部加载进度条">
+            <span id="/微信小程序中用setData修改数组或对象/" class="leancloud_visitors" data-flag-title="微信小程序中用setData修改数组或对象">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -800,7 +1063,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">1.2k</span>
+                <span title="本文字数">431</span>
               
 
               
@@ -814,14 +1077,14 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 分钟</span>
+                <span title="阅读时长">1 分钟</span>
               
             </div>
           
 
           <!--
           
-            <div class="post-description">Hexo博客NexT主题美化教程中改变顶部加载进度条。</div>
+            <div class="post-description">微信小程序中如何使用setData修改数组或对象呢？</div>
           
           -->
 
@@ -839,14 +1102,17 @@
 
       
         
-          <h4 id="效果图："><a href="#效果图：" class="headerlink" title="效果图："></a>效果图：</h4><p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1g0f8v1bvhcg306h05wtah.gif" alt="image"></p>
+          <p>在 <code>page</code> 中有如下数组：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">Page(&#123;</span><br><span class="line">  data: &#123;</span><br><span class="line">    list: [</span><br><span class="line">      &#123;</span><br><span class="line">        id: 0,</span><br><span class="line">        state: &quot;running&quot;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        id: 1,</span><br><span class="line">        state: &quot;done&quot;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        id: 2,</span><br><span class="line">        state: &quot;error&quot;</span><br><span class="line">      &#125;</span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
+<p>若需要使用 <code>setData</code> 修改 <code>list[0].state</code> 的值为 <code>done</code>，若直接修改，如下：</p>
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1g0t4f7hp09j30jg0iojsj.jpg" alt="image"></p>
+<p>显然报错了，解决方法如下：</p>
           
           
           
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/Hexo博客NexT主题美化之顶部加载进度条/#more" rel="contents">
+              <a class="btn" href="/微信小程序中用setData修改数组或对象/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -910,7 +1176,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/NodeJs安装教程/">
+    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/微信小程序中的渐变色/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="潘高">
@@ -930,7 +1196,7 @@
           <h2 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/NodeJs安装教程/" class="post-title-link" itemprop="url">Node.js安装教程</a>
+                <a href="/微信小程序中的渐变色/" class="post-title-link" itemprop="url">微信小程序中的渐变色</a>
               
             
           </h2>
@@ -955,7 +1221,7 @@
                 
               
 
-              <time title="创建时间：2019-02-21 21:32:19" itemprop="dateCreated datePublished" datetime="2019-02-21T21:32:19+08:00">2019-02-21</time>
+              <time title="创建时间：2018-10-09 00:10:15" itemprop="dateCreated datePublished" datetime="2018-10-09T00:10:15+08:00">2018-10-09</time>
             
 
             
@@ -972,7 +1238,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-02-22 23:16:21" itemprop="dateModified" datetime="2019-02-22T23:16:21+08:00">2019-02-22</time>
+                <time title="修改时间：2019-03-07 18:03:47" itemprop="dateModified" datetime="2019-03-07T18:03:47+08:00">2019-03-07</time>
               
             
           </span>
@@ -989,7 +1255,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/个人博客/" itemprop="url" rel="index"><span itemprop="name">个人博客</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/微信小程序/" itemprop="url" rel="index"><span itemprop="name">微信小程序</span></a></span>
 
                 
                 
@@ -1008,8 +1274,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/NodeJs安装教程/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/NodeJs安装教程/" itemprop="commentCount"></span>
+                <a href="/微信小程序中的渐变色/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/微信小程序中的渐变色/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1017,7 +1283,7 @@
 
           
           
-            <span id="/NodeJs安装教程/" class="leancloud_visitors" data-flag-title="Node.js安装教程">
+            <span id="/微信小程序中的渐变色/" class="leancloud_visitors" data-flag-title="微信小程序中的渐变色">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -1043,7 +1309,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">1.1k</span>
+                <span title="本文字数">1.3k</span>
               
 
               
@@ -1064,7 +1330,7 @@
 
           <!--
           
-            <div class="post-description">在Mac下的Node.js安装教程。</div>
+            <div class="post-description">微信小程序开发中的颜色渐变。</div>
           
           -->
 
@@ -1082,20 +1348,21 @@
 
       
         
-          <h1 id="什么是Node-js"><a href="#什么是Node-js" class="headerlink" title="什么是Node.js"></a>什么是Node.js</h1><h5 id="NodeJS官网上的介绍："><a href="#NodeJS官网上的介绍：" class="headerlink" title="NodeJS官网上的介绍："></a>NodeJS官网上的介绍：</h5><blockquote>
-<p>Node.js is a platform built on  Chrome’s JavaScript runtime  for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>
+          <blockquote>
+<p>CSS3 渐变（gradients）可以在两个或多个指定的颜色之间显示平稳的过渡。</p>
+<p>CSS3 定义了两种类型的渐变（gradients）：</p>
+<ul>
+<li>线性渐变（Linear Gradients）- 向下/向上/向左/向右/对角方向</li>
+<li>径向渐变（Radial Gradients）- 由它们的中心定义</li>
+</ul>
 </blockquote>
           
           
-           <div class="out-img-topic">
-            <img src="https://ws4.sinaimg.cn/large/006tNc79gy1g050l1irw9j310a0t0gnn.jpg" class="img-topic">
-           </div>
-          
           
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/NodeJs安装教程/#more" rel="contents">
+              <a class="btn" href="/微信小程序中的渐变色/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1159,7 +1426,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/Git安装教程/">
+    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/微信小程序如何获取屏幕的高度和宽度/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="潘高">
@@ -1179,7 +1446,7 @@
           <h2 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/Git安装教程/" class="post-title-link" itemprop="url">Git安装教程</a>
+                <a href="/微信小程序如何获取屏幕的高度和宽度/" class="post-title-link" itemprop="url">微信小程序如何获取屏幕的高度和宽度</a>
               
             
           </h2>
@@ -1204,7 +1471,7 @@
                 
               
 
-              <time title="创建时间：2019-02-21 21:24:43" itemprop="dateCreated datePublished" datetime="2019-02-21T21:24:43+08:00">2019-02-21</time>
+              <time title="创建时间：2018-10-05 16:13:45" itemprop="dateCreated datePublished" datetime="2018-10-05T16:13:45+08:00">2018-10-05</time>
             
 
             
@@ -1221,7 +1488,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-02-22 23:14:38" itemprop="dateModified" datetime="2019-02-22T23:14:38+08:00">2019-02-22</time>
+                <time title="修改时间：2019-03-07 18:02:22" itemprop="dateModified" datetime="2019-03-07T18:02:22+08:00">2019-03-07</time>
               
             
           </span>
@@ -1238,7 +1505,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/个人博客/" itemprop="url" rel="index"><span itemprop="name">个人博客</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/微信小程序/" itemprop="url" rel="index"><span itemprop="name">微信小程序</span></a></span>
 
                 
                 
@@ -1257,8 +1524,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/Git安装教程/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/Git安装教程/" itemprop="commentCount"></span>
+                <a href="/微信小程序如何获取屏幕的高度和宽度/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/微信小程序如何获取屏幕的高度和宽度/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1266,7 +1533,7 @@
 
           
           
-            <span id="/Git安装教程/" class="leancloud_visitors" data-flag-title="Git安装教程">
+            <span id="/微信小程序如何获取屏幕的高度和宽度/" class="leancloud_visitors" data-flag-title="微信小程序如何获取屏幕的高度和宽度">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -1292,7 +1559,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">89</span>
+                <span title="本文字数">290</span>
               
 
               
@@ -1313,7 +1580,7 @@
 
           <!--
           
-            <div class="post-description">在Mac下的Git安装教程。</div>
+            <div class="post-description">微信小程序开发中，如何获取屏幕的高度和宽度呢？</div>
           
           -->
 
@@ -1331,269 +1598,17 @@
 
       
         
-          <ol>
-<li>打开终端，输入<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
+          <h2 id="微信小程序如何获取屏幕的高度和宽度"><a href="#微信小程序如何获取屏幕的高度和宽度" class="headerlink" title="微信小程序如何获取屏幕的高度和宽度"></a>微信小程序如何获取屏幕的高度和宽度</h2><ul>
+<li>方法一：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var windowHeight = wx.getSystemInfoSync().windowHeight</span><br><span class="line">var windowWidth = wx.getSystemInfoSync().windowWidth</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<p>系统提示安装git</p>
+</ul>
           
-          
-           <div class="out-img-topic">
-            <img src="https://ws4.sinaimg.cn/large/006tNc79gy1g0516p4kvuj30mi0c8wi2.jpg" class="img-topic">
-           </div>
           
           
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/Git安装教程/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-      
-    
-    
-
-    
-    
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://pangao1990.github.io/如何使用Hexo创建个人博客/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="潘高">
-      <meta itemprop="description" content="Just do it !<br>(翻译：我只是个搞 IT的！哭笑脸)">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="潘高的小站">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/如何使用Hexo创建个人博客/" class="post-title-link" itemprop="url">如何使用Hexo创建个人博客</a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-02-16 17:57:23" itemprop="dateCreated datePublished" datetime="2019-02-16T17:57:23+08:00">2019-02-16</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-02-23 17:03:53" itemprop="dateModified" datetime="2019-02-23T17:03:53+08:00">2019-02-23</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/个人博客/" itemprop="url" rel="index"><span itemprop="name">个人博客</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/如何使用Hexo创建个人博客/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/如何使用Hexo创建个人博客/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-            <span id="/如何使用Hexo创建个人博客/" class="leancloud_visitors" data-flag-title="如何使用Hexo创建个人博客">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="post-meta-item-text">热度：</span>
-              
-                <span class="leancloud-visitors-count"></span>
-                <span>℃</span>
-            </span>
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">1.2k</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">2 分钟</span>
-              
-            </div>
-          
-
-          <!--
-          
-            <div class="post-description">如何使用Hexo快速、简洁且高效地创建个人博客。</div>
-          
-          -->
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h2><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a> 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-          
-          
-           <div class="out-img-topic">
-            <img src="https://ws1.sinaimg.cn/large/006tNc79gy1g052u7tu5ej31l90u0x0z.jpg" class="img-topic">
-           </div>
-          
-          
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/如何使用Hexo创建个人博客/#more" rel="contents">
+              <a class="btn" href="/微信小程序如何获取屏幕的高度和宽度/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
