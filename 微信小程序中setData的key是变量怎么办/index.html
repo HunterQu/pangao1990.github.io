@@ -127,7 +127,7 @@
 <meta property="og:site_name" content="潘高的小站">
 <meta property="og:description" content="微信小程序中setData的key是变量该怎么办？">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-07T10:05:29.176Z">
+<meta property="og:updated_time" content="2019-03-08T02:56:47.581Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序中setData的key是变量怎么办">
 <meta name="twitter:description" content="微信小程序中setData的key是变量该怎么办？">
@@ -498,7 +498,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-03-07 18:05:29" itemprop="dateModified" datetime="2019-03-07T18:05:29+08:00">2019-03-07</time>
+                <time title="修改时间：2019-03-08 10:56:47" itemprop="dateModified" datetime="2019-03-08T10:56:47+08:00">2019-03-08</time>
               
             
           </span>
@@ -607,10 +607,10 @@
       
 
       
-        <p>代码如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">onclick: function (e) &#123;</span><br><span class="line">    var id = e.target.id</span><br><span class="line">    this.setData(&#123; </span><br><span class="line">        id: e.detail.value </span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+        <p>代码如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">onclick: <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> id = e.target.id</span><br><span class="line">    <span class="keyword">this</span>.setData(&#123; </span><br><span class="line">        id: e.detail.value </span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>显然data中是多了一个 <code>id</code> 的数据，解决办法是用[]将变量括起来，如下：</p>
 <a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">onclick: function (e) &#123;</span><br><span class="line">    var id = e.target.id</span><br><span class="line">    this.setData(&#123; </span><br><span class="line">        [id]: e.detail.value </span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">onclick: <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> id = e.target.id</span><br><span class="line">    <span class="keyword">this</span>.setData(&#123; </span><br><span class="line">        [id]: e.detail.value </span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <hr>
 
       
@@ -632,13 +632,6 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/微信小程序中的云开发如何使用云函数生成二维码/" rel="bookmark">微信小程序中的云开发如何使用云函数生成二维码</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="/微信小程序中用setData修改数组或对象/" rel="bookmark">微信小程序中用setData修改数组或对象</a></div>
       
     </li>
@@ -646,14 +639,21 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/微信小程序中的渐变色/" rel="bookmark">微信小程序中的渐变色</a></div>
+      <div class="popular-posts-title"><a href="/微信小程序中的云开发如何使用npm安装依赖/" rel="bookmark">微信小程序中的云开发如何使用npm安装依赖</a></div>
       
     </li>
   
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/微信小程序中的云开发如何使用npm安装依赖/" rel="bookmark">微信小程序中的云开发如何使用npm安装依赖</a></div>
+      <div class="popular-posts-title"><a href="/微信小程序云开发的云函数中自增函数inc报错/" rel="bookmark">微信小程序云开发的云函数中自增函数inc报错</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/微信小程序如何获取屏幕的高度和宽度/" rel="bookmark">微信小程序如何获取屏幕的高度和宽度</a></div>
       
     </li>
   
@@ -726,7 +726,7 @@
   <p><span>本文标题:</span>微信小程序中setData的key是变量怎么办</p>
   <p><span>文章作者:</span>潘高</p>
   <p><span>发布时间:</span>2018年10月15日 - 15:50:22</p>
-  <p><span>最后更新:</span>2019年03月07日 - 18:05:29</p>
+  <p><span>最后更新:</span>2019年03月08日 - 10:56:47</p>
   <p><span>原始链接:</span><a href="/微信小程序中setData的key是变量怎么办/" title="微信小程序中setData的key是变量怎么办">https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/" aria-label="复制成功！"></i></span>
   </p>
@@ -1109,7 +1109,7 @@ show_date_time();
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">41k</span>
+    <span title="站点总字数">40k</span>
   
 
   
@@ -1120,7 +1120,7 @@ show_date_time();
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">1:08</span>
+    <span title="站点阅读时长">1:07</span>
   
         
 
