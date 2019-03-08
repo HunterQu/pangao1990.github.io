@@ -19,6 +19,7 @@ https://pangao1990.github.io/NodeJs安装教程/
 https://pangao1990.github.io/Git安装教程/
 https://pangao1990.github.io/如何使用Hexo创建个人博客/
 https://pangao1990.github.io/Vue中使用vue-i18n实现中英文切换/
+https://pangao1990.github.io/JS的深拷贝与浅拷贝/
 https://pangao1990.github.io/Vue中添加友盟代码统计/
 https://pangao1990.github.io/微信小程序与vue的一些区别/
 https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/
