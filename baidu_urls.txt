@@ -27,7 +27,12 @@ https://pangao1990.github.io/微信小程序中的渐变色/
 https://pangao1990.github.io/微信小程序如何获取屏幕的高度和宽度/
 https://pangao1990.github.io/Vue中动态设置页面title/
 https://pangao1990.github.io/Vue中使用base64编码和解码/
+https://pangao1990.github.io/Perl递归删除文件夹及其内容/
+https://pangao1990.github.io/Perl解压zip/
 https://pangao1990.github.io/常用生物信息学格式介绍/
 https://pangao1990.github.io/生物信息分析中的测序概念/
 https://pangao1990.github.io/生物信息分析中的reads是什么/
 https://pangao1990.github.io/外显子、内含子、mRNA、CDS、ORF的区别与联系/
+https://pangao1990.github.io/Perl处理Excel/
+https://pangao1990.github.io/Perl处理文件及文件夹/
+https://pangao1990.github.io/Perl的简单联网操作/
