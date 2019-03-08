@@ -18,6 +18,7 @@ https://pangao1990.github.io/Hexo博客NexT主题美化之顶部加载进度条/
 https://pangao1990.github.io/NodeJs安装教程/
 https://pangao1990.github.io/Git安装教程/
 https://pangao1990.github.io/如何使用Hexo创建个人博客/
+https://pangao1990.github.io/Vue中添加友盟代码统计/
 https://pangao1990.github.io/微信小程序与vue的一些区别/
 https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/
 https://pangao1990.github.io/微信小程序中用setData修改数组或对象/
