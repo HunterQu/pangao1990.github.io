@@ -23,6 +23,7 @@ https://pangao1990.github.io/微信小程序中setData的key是变量怎么办/
 https://pangao1990.github.io/微信小程序中用setData修改数组或对象/
 https://pangao1990.github.io/微信小程序中的渐变色/
 https://pangao1990.github.io/微信小程序如何获取屏幕的高度和宽度/
+https://pangao1990.github.io/Vue中使用base64编码/
 https://pangao1990.github.io/常用生物信息学格式介绍/
 https://pangao1990.github.io/生物信息分析中的测序概念/
 https://pangao1990.github.io/生物信息分析中的reads是什么/
