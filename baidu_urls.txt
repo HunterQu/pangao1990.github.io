@@ -20,6 +20,7 @@ https://pangao1990.github.io/Git安装教程/
 https://pangao1990.github.io/如何使用Hexo创建个人博客/
 https://pangao1990.github.io/Vue中使用vue-i18n实现中英文切换/
 https://pangao1990.github.io/抓包工具Charles从入门到入土/
+https://pangao1990.github.io/Office-办公软件套装Mac绿色版/
 https://pangao1990.github.io/JS检测对象中是否存在某个属性/
 https://pangao1990.github.io/JS的深拷贝与浅拷贝/
 https://pangao1990.github.io/MacBooster-系统清理和优化工具Mac绿色版/
