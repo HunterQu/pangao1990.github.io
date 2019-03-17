@@ -1,3 +1,4 @@
+https://pangao1990.github.io/Mac安装软件提示“已损坏，打不开”的解决方法/
 https://pangao1990.github.io/中国版权保护中心注册不了的解决办法/
 https://pangao1990.github.io/Markdown从入门到精通/
 https://pangao1990.github.io/微信小程序云开发的云函数中自增函数inc报错/
@@ -22,8 +23,8 @@ https://pangao1990.github.io/如何使用Hexo创建个人博客/
 https://pangao1990.github.io/Vue中使用vue-i18n实现中英文切换/
 https://pangao1990.github.io/抓包工具Charles从入门到入土/
 https://pangao1990.github.io/Office-办公软件套装Mac绿色版/
-https://pangao1990.github.io/JS检测对象中是否存在某个属性/
 https://pangao1990.github.io/JS的深拷贝与浅拷贝/
+https://pangao1990.github.io/JS检测对象中是否存在某个属性/
 https://pangao1990.github.io/MacBooster-系统清理和优化工具Mac绿色版/
 https://pangao1990.github.io/Vue中添加友盟代码统计/
 https://pangao1990.github.io/微信小程序与vue的一些区别/
