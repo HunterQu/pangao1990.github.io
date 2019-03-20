@@ -13,5 +13,5 @@ Disallow: /lib/
 Disallow: /live2d/
 
 
-Sitemap: https://pangao1990.github.io/blogs/sitemap.xml
-Sitemap: https://pangao1990.github.io/blogs/baidusitemap.xml
+Sitemap: https://blog.pangao.vip/sitemap.xml
+Sitemap: https://blog.pangao.vip/baidusitemap.xml
