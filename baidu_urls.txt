@@ -1,4 +1,4 @@
-https://blog.pangao.vip/IT技术社区有哪些/
+https://blog.pangao.vip/Mac打包dmg文件(更换背景图)/
 https://blog.pangao.vip/Mac安装软件提示“已损坏，打不开”的解决方法/
 https://blog.pangao.vip/中国版权保护中心注册不了的解决办法/
 https://blog.pangao.vip/Markdown从入门到精通/
@@ -24,8 +24,8 @@ https://blog.pangao.vip/如何使用Hexo创建个人博客/
 https://blog.pangao.vip/Vue中使用vue-i18n实现中英文切换/
 https://blog.pangao.vip/抓包工具Charles从入门到入土/
 https://blog.pangao.vip/Office-办公软件套装Mac绿色版/
-https://blog.pangao.vip/JS的深拷贝与浅拷贝/
 https://blog.pangao.vip/JS检测对象中是否存在某个属性/
+https://blog.pangao.vip/JS的深拷贝与浅拷贝/
 https://blog.pangao.vip/MacBooster-系统清理和优化工具Mac绿色版/
 https://blog.pangao.vip/Vue中添加友盟代码统计/
 https://blog.pangao.vip/微信小程序与vue的一些区别/
