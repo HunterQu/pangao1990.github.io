@@ -13,6 +13,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[IT技术社区有哪些]]></title>
+    <url>%2FIT%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%E6%9C%89%E5%93%AA%E4%BA%9B%2F</url>
+    <content type="text"><![CDATA[技术社区一般有三类人：第一类是善于检索答案的人，即遇到问题时在社区寻找答案，绝大部分初级程序员都是通过这种方式来了解技术社区的；第二类是善于学习技术的人，即有意识的常去技术社区查看博客，学习新知识；第三类是善于解决问题的人，喜欢分享某一类技术，或者他们的实战经历。往往写文章的人，也喜欢看文章。中文社区CSDNCSDN是一个专业的IT技术社区，致力于为中国软件开发者提供知识传播、在线学习、职业发展等全生命周期服务。开源中国开源中国是目前中国最大的开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台。目前开源中国社区已收录近五万款开源软件。掘金掘金是一个帮助开发者成长的社区，技术文章由稀土上聚集的技术大牛和极客共同编辑为你筛选出最优质的干货，其中包括：Android、iOS、前端、后端等方面的内容。简书简书是一个优质的创作社区，在这里，你可以任性地创作，一篇短文、一张照片、一首诗、一幅画……我们相信，每个人都是生活中的艺术家，有着无穷的创造力。思否SegmentFault 思否 为开发者提供问答、学习与交流编程知识的平台，创造属于开发者的时代！知乎有问题，上知乎。知乎，可信赖的问答社区，以让每个人高效获得可信赖的解答为使命。用户通过问答等交流方式建立信任和连接，打造和提升个人影响力，并发现、获得新机会。V2EXV2EX = way to explore 是创意工作者们的社区。这里目前汇聚了超过 250,000 名主要来自互联网行业、游戏行业和媒体行业的创意工作者。V2EX 希望能够成为创意工作者们的生活和事业的一部分。51CTO中国领先的IT技术网站51CTO主要为IT技术人员提供新闻资讯、技术文档、BBS、博客、技术圈、培训课程、人才交流等专业服务。ITPUB技术论坛ITPUB技术论坛专门立足讨论数据库、ERP、技术开发、操作系统、网络等方面的技术问题。博客园博客园是一个面向开发者的知识分享社区。一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识，从而让更多开发者从中受益。威锋网威锋网是较早建立的关于iPhone专题网站，威锋网论坛一直是人气中文iPhone、iPad、MAC社区。目前网站提供iPhone软件评测、音乐、电影、铃声下载等服务。ChinaUnixChinaUnix.net提供交流程序开发、数据库、存储备份、服务器技术、网络安全等技术，并提供IT人才招聘、软件下载、BLOG、IT培训等服务。英文社区stackoverflow全球最受程序员欢迎的IT技术问答社区，没有之一。RedditReddit是个社交新闻站点，口号：提前于新闻发生，来自互联网的声音。是一个提供兴趣讨论社区、编程开发问题和热点资讯的平台。Hacker NewsHacker News是一个提供专业技术分享的社区，包括文章、图像视频等。页面极其简单，没有广告。DZoneDZone是一个创办早、用户多的IT新闻和编程资源的分享社区。]]></content>
+      <categories>
+        <category>导航</category>
+      </categories>
+      <tags>
+        <tag>IT社区</tag>
+        <tag>导航</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Mac安装软件提示“已损坏，打不开”的解决方法]]></title>
     <url>%2FMac%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E6%8F%90%E7%A4%BA%E2%80%9C%E5%B7%B2%E6%8D%9F%E5%9D%8F%EF%BC%8C%E6%89%93%E4%B8%8D%E5%BC%80%E2%80%9D%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%2F</url>
     <content type="text"><![CDATA[如图所示：或解决办法：依次打开【系统偏好设置】-&gt;【安全性与隐私】-&gt;【通用】，在【允许从以下位置下载的应用】中选择【任何来源】即可，如下图：ps：如果是新版系统，默认情况下是不允许自己下载安装应用软件的，因此没有【任何来源】选项，如下图：解决办法如下：打开终端，输入 sudo spctl --master-disable ，如下：输入用户密码，如下：即可选择【任何来源】，如下：]]></content>
@@ -38,7 +50,7 @@
   <entry>
     <title><![CDATA[Markdown从入门到精通]]></title>
     <url>%2FMarkdown%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%2F</url>
-    <content type="text"><![CDATA[标题主标题:【语法】1主标题文字 (空行) ==（两个及以上）【示例】12主标题文字（最高阶标题）==主标题文字（最高阶标题）【说明】相当于H1大纲标题效果，一般在首行应用和表示副标题：【语法】1副标题文字 (空行) --(减号两个及以上)【示例】12主标题文字（第二阶标题）--主标题文字（第二阶标题）【说明】相当于H2大纲标题效果H1~H6大纲标题:【语法】1# (空格)文字1-6等级分别在文字前加对应数量#，后面的#为可选，不加效果也一样。【示例】12345678910111213# 大纲标题文字 H1（等同 主标题）## 大纲标题文字 H2（等同 副标题）### 大纲标题文字 H3#### 大纲标题文字 H4##### 大纲标题文字 H5###### 大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）大纲标题文字 H1（等同 主标题）大纲标题文字 H2（等同 副标题）大纲标题文字 H3大纲标题文字 H4大纲标题文字 H5大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）【说明】最多6个等级的大纲标题，后面加上同等数量“（空格）#”效果也一样标签【语法】1TAGS：内容 或 标签： 内容在编辑区任意行的列首位置输入tags/标签：关键词1 关键词2 ， 多个用空格隔开。【示例】1标签：教程 Markdown标签：教程 Markdown目录（大纲）导航【语法】1在段落中填写 [TOC] （toc小写也可以）以显示各标题为结构的目录（大纲）导航。强调或突出斜体：【语法】1_斜体_ 或 *斜体* 在文字两边加 单下底线 或 单星号【示例】1_斜体_ 或 *斜体*_斜体_ 或 斜体粗体：【语法】1__粗体__ 或 **粗体** 在文字两边加 双下底线 或 双星号【示例】1__粗体__ 或 **粗体**粗体 或 粗体删除线：【语法】1~~删除线~~ 在文字两边加 双波浪号【示例】1这是带有 ~~删除线~~ 的文字这是带有 删除线 的文字【说明】快速记忆：单斜双粗两波删下划线：【语法】1在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）【示例】1234这是下划线---你看到了吗？这是下划线你看到了吗？段落与分割普通段落：【语法】1用空行分隔，连着多个空行也是一个效果，只能空一行的间距。【示例】123456这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。水平分割线：【语法】13个及以上的 星号***或 减号---或 下底线___来表示。【示例】1***【说明】建议只固定选用一个，如三个星号***为标准，用减号—容易和副标题搞混。强制换行：【语法】1在行尾输入两个空格【示例】123这句话(空格)(空格)会(空格)(空格)换行这句话会换行【说明】强制换行比输入回车换行的行间距小很多链接网页链接（内联风格）：【语法】1[链接文字](http://链接地址)&quot;（空格）鼠标悬停显示文字（可选）&quot;“（空格）鼠标悬停显示文字”非必须项，在pc浏览器中能看到效果，手机移动端因无鼠标效果无法直接体现。【示例】1这是去往[本人博客](https://pangao1990.github.io)的链接。这是去往本人博客的链接。链接的快速定义：【语法】1234567前面文档中引用链接的语法为：[链接文字][id]前后id要匹配一致，一般为数字，这样可以在文档的其他任意地方快速插入这个链接。后面定义链接的语法为：[id]:（空格）http://链接地址（空格）&quot;鼠标悬停显示文字（可选）&quot;后面的语法必须在列首并单独一行，适合前期不知道网址，后面再加入的情况。【示例】123这是去往[本人博客][1]的链接。[1]: https://pangao1990.github.io这是去往本人博客的链接。链接的自动展示：直接输入链接地址，可以直接识别。https://pangao1990.github.ioEmail 链接：【语法】1直接&lt;邮箱号地址&gt;即可【示例】1我的email地址是：&lt;pangao1990@qq.com&gt;。我的email地址是：&#112;&#x61;&#110;&#x67;&#x61;&#111;&#49;&#x39;&#57;&#x30;&#x40;&#x71;&#x71;&#x2e;&#99;&#x6f;&#x6d;。列表有序列表：【语法】1直接数字加英文句点加空格（最多三个空格）和文字【示例】有序单层列表123520. 列表项1（第一项数字一定要为“520”）201314. 列表项2（其实我前面的标的数字是“201314”）20161130. 列表项3（其实我前面的标的数字是“20161130”列表项1（第一项数字一定要为“520”）列表项2（其实我前面的标的数字是“201314”）列表项3（其实我前面的标的数字是“20161130”【说明】后面的不必在意数字从小到大的排序，显示时会自动排序，有智能的乱序纠正功能，非常贴心。数字前面加了空格，排序会变成罗马数字形式。无序列表:【语法】1文字前面加 星号空格*（空格）或 短横空格-（空格）或 加号+（空格）表示【示例】无序单层列表12- 列表项1- 列表项2列表项1列表项2多重列表:【语法】1单层列表项缩进1个tab就可以往后面叠加子层的列表【示例】12345678910111. 首层列表项（有序）2. 第二层列表项1(嵌套的列表可以是有序的 )2. 第二层列表项2(格式和正常的有序、无序列表没有差异)3. 第三层列表项(tab)1. 三层的子列表项1(tab)2. 三层的子列表项2- 首层列表项第四层列表项2（无序）- 嵌套的列表可以是无序的(tab)- 子列表项 1（加了1个tab缩进）(tab)(tab)- 子列表项 2（加了2个tab缩进）(tab)(tab)(tab)- 子列表项 4（加了3个tab缩进）首层列表项（有序）第二层列表项1(嵌套的列表可以是有序的 )第二层列表项2(格式和正常的有序、无序列表没有差异)第三层列表项三层的子列表项1三层的子列表项2首层列表项第四层列表项2（无序）嵌套的列表可以是无序的子列表项 1（加了1个tab缩进）子列表项 2（加了2个tab缩进）子列表项 4（加了3个tab缩进）引用文字引用：【语法】1段落前面添加大于号和空格&gt; （空格），就能够形成引用段落。【示例】123&gt;(空格)青松(空格)(空格)大雪压青松，青松挺且直。(空格)(空格)要知松高洁，待到雪化时。青松大雪压青松，青松挺且直。要知松高洁，待到雪化时。添加影像附件插入图片:【语法】1![图片描述](图片网络/本地图片地址)（空格）“鼠标悬停显示文字（可选）”【说明】和网页链接用法一致。代码块行内（内联）代码【语法】12使用`内容` 表示行内 代码块。即 在文字左右使用反引号包含（键盘数字“1”前面的波浪号大写状态时能打出）。【示例】1我是一只`小鸭子`，咿呀咿呀哟。我是一只小鸭子，咿呀咿呀哟。【说明】和标签/关键词的效果差不多，还可用于如按键Ctrl+F4，字母B，单词F**K、短句Are you ok？等诸多行的应用场景。能起到强调区分的作用。段落文本代码块:【语法】1每行缩进4个空格或 1个 Tab表示【示例】1(tab)这是一个代码块。这是一个代码块。]]></content>
+    <content type="text"><![CDATA[标题主标题:【语法】1主标题文字 (空行) ==（两个及以上）【示例】12主标题文字（最高阶标题）==主标题文字（最高阶标题）【说明】相当于H1大纲标题效果，一般在首行应用和表示副标题：【语法】1副标题文字 (空行) --(减号两个及以上)【示例】12主标题文字（第二阶标题）--主标题文字（第二阶标题）【说明】相当于H2大纲标题效果H1~H6大纲标题:【语法】1# (空格)文字1-6等级分别在文字前加对应数量#，后面的#为可选，不加效果也一样。【示例】12345678910111213# 大纲标题文字 H1（等同 主标题）## 大纲标题文字 H2（等同 副标题）### 大纲标题文字 H3#### 大纲标题文字 H4##### 大纲标题文字 H5###### 大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）大纲标题文字 H1（等同 主标题）大纲标题文字 H2（等同 副标题）大纲标题文字 H3大纲标题文字 H4大纲标题文字 H5大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）【说明】最多6个等级的大纲标题，后面加上同等数量“（空格）#”效果也一样标签【语法】1TAGS：内容 或 标签： 内容在编辑区任意行的列首位置输入tags/标签：关键词1 关键词2 ， 多个用空格隔开。【示例】1标签：教程 Markdown标签：教程 Markdown目录（大纲）导航【语法】1在段落中填写 [TOC] （toc小写也可以）以显示各标题为结构的目录（大纲）导航。强调或突出斜体：【语法】1_斜体_ 或 *斜体* 在文字两边加 单下底线 或 单星号【示例】1_斜体_ 或 *斜体*_斜体_ 或 斜体粗体：【语法】1__粗体__ 或 **粗体** 在文字两边加 双下底线 或 双星号【示例】1__粗体__ 或 **粗体**粗体 或 粗体删除线：【语法】1~~删除线~~ 在文字两边加 双波浪号【示例】1这是带有 ~~删除线~~ 的文字这是带有 删除线 的文字【说明】快速记忆：单斜双粗两波删下划线：【语法】1在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）【示例】1234这是下划线---你看到了吗？这是下划线你看到了吗？段落与分割普通段落：【语法】1用空行分隔，连着多个空行也是一个效果，只能空一行的间距。【示例】123456这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。水平分割线：【语法】13个及以上的 星号***或 减号---或 下底线___来表示。【示例】1***【说明】建议只固定选用一个，如三个星号***为标准，用减号—容易和副标题搞混。强制换行：【语法】1在行尾输入两个空格【示例】123这句话(空格)(空格)会(空格)(空格)换行这句话会换行【说明】强制换行比输入回车换行的行间距小很多链接网页链接（内联风格）：【语法】1[链接文字](http://链接地址)&quot;（空格）鼠标悬停显示文字（可选）&quot;“（空格）鼠标悬停显示文字”非必须项，在pc浏览器中能看到效果，手机移动端因无鼠标效果无法直接体现。【示例】1这是去往[本人博客](https://pangao1990.github.io)的链接。这是去往本人博客的链接。链接的快速定义：【语法】1234567前面文档中引用链接的语法为：[链接文字][id]前后id要匹配一致，一般为数字，这样可以在文档的其他任意地方快速插入这个链接。后面定义链接的语法为：[id]:（空格）http://链接地址（空格）&quot;鼠标悬停显示文字（可选）&quot;后面的语法必须在列首并单独一行，适合前期不知道网址，后面再加入的情况。【示例】123这是去往[本人博客][1]的链接。[1]: https://pangao1990.github.io这是去往本人博客的链接。链接的自动展示：直接输入链接地址，可以直接识别。https://pangao1990.github.ioEmail 链接：【语法】1直接&lt;邮箱号地址&gt;即可【示例】1我的email地址是：&lt;pangao1990@qq.com&gt;。我的email地址是：&#x70;&#97;&#x6e;&#103;&#x61;&#x6f;&#49;&#x39;&#57;&#48;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;。列表有序列表：【语法】1直接数字加英文句点加空格（最多三个空格）和文字【示例】有序单层列表123520. 列表项1（第一项数字一定要为“520”）201314. 列表项2（其实我前面的标的数字是“201314”）20161130. 列表项3（其实我前面的标的数字是“20161130”列表项1（第一项数字一定要为“520”）列表项2（其实我前面的标的数字是“201314”）列表项3（其实我前面的标的数字是“20161130”【说明】后面的不必在意数字从小到大的排序，显示时会自动排序，有智能的乱序纠正功能，非常贴心。数字前面加了空格，排序会变成罗马数字形式。无序列表:【语法】1文字前面加 星号空格*（空格）或 短横空格-（空格）或 加号+（空格）表示【示例】无序单层列表12- 列表项1- 列表项2列表项1列表项2多重列表:【语法】1单层列表项缩进1个tab就可以往后面叠加子层的列表【示例】12345678910111. 首层列表项（有序）2. 第二层列表项1(嵌套的列表可以是有序的 )2. 第二层列表项2(格式和正常的有序、无序列表没有差异)3. 第三层列表项(tab)1. 三层的子列表项1(tab)2. 三层的子列表项2- 首层列表项第四层列表项2（无序）- 嵌套的列表可以是无序的(tab)- 子列表项 1（加了1个tab缩进）(tab)(tab)- 子列表项 2（加了2个tab缩进）(tab)(tab)(tab)- 子列表项 4（加了3个tab缩进）首层列表项（有序）第二层列表项1(嵌套的列表可以是有序的 )第二层列表项2(格式和正常的有序、无序列表没有差异)第三层列表项三层的子列表项1三层的子列表项2首层列表项第四层列表项2（无序）嵌套的列表可以是无序的子列表项 1（加了1个tab缩进）子列表项 2（加了2个tab缩进）子列表项 4（加了3个tab缩进）引用文字引用：【语法】1段落前面添加大于号和空格&gt; （空格），就能够形成引用段落。【示例】123&gt;(空格)青松(空格)(空格)大雪压青松，青松挺且直。(空格)(空格)要知松高洁，待到雪化时。青松大雪压青松，青松挺且直。要知松高洁，待到雪化时。添加影像附件插入图片:【语法】1![图片描述](图片网络/本地图片地址)（空格）“鼠标悬停显示文字（可选）”【说明】和网页链接用法一致。代码块行内（内联）代码【语法】12使用`内容` 表示行内 代码块。即 在文字左右使用反引号包含（键盘数字“1”前面的波浪号大写状态时能打出）。【示例】1我是一只`小鸭子`，咿呀咿呀哟。我是一只小鸭子，咿呀咿呀哟。【说明】和标签/关键词的效果差不多，还可用于如按键Ctrl+F4，字母B，单词F**K、短句Are you ok？等诸多行的应用场景。能起到强调区分的作用。段落文本代码块:【语法】1每行缩进4个空格或 1个 Tab表示【示例】1(tab)这是一个代码块。这是一个代码块。]]></content>
       <categories>
         <category>个人博客</category>
       </categories>
@@ -165,8 +177,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>软件分享</tag>
         <tag>Mac</tag>
+        <tag>软件分享</tag>
       </tags>
   </entry>
   <entry>
@@ -177,8 +189,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>软件分享</tag>
         <tag>Mac</tag>
+        <tag>软件分享</tag>
       </tags>
   </entry>
   <entry>
@@ -248,8 +260,8 @@
         <category>个人博客</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>Git</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -294,14 +306,14 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>软件分享</tag>
         <tag>Mac</tag>
+        <tag>软件分享</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[JS检测对象中是否存在某个属性]]></title>
-    <url>%2FJS%E6%A3%80%E6%B5%8B%E5%AF%B9%E8%B1%A1%E4%B8%AD%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%2F</url>
-    <content type="text"><![CDATA[使用in关键字该方法可以判断对象的自有属性和继承来的属性是否存在。1234var o=&#123;x:1&#125;;"x" in o; //true，自有属性存在"y" in o; //false"toString" in o; //true，是一个继承属性使用对象的hasOwnProperty()方法该方法只能判断自有属性是否存在，对于继承属性会返回false。1234var o=&#123;x:1&#125;;o.hasOwnProperty("x"); //true，自有属性中有xo.hasOwnProperty("y"); //false，自有属性中不存在yo.hasOwnProperty("toString"); //false，这是一个继承属性，但不是自有属性使用undefined判断自有属性和继承属性均可判断。1234var o=&#123;x:1&#125;;o.x!==undefined; //trueo.y!==undefined; //falseo.toString!==undefined //true该方法存在一个问题，如果属性的值就是undefined的话，该方法不能返回想要的结果，如下:1234var o=&#123;x:undefined&#125;;o.x!==undefined; //false，属性存在，但值是undefinedo.y!==undefined; //falseo.toString!==undefined //true在条件语句中判断12var o=&#123;&#125;;if(o.x) o.x+=1; //如果x是undefine,null,false," ",0或NaN,它将保持不变]]></content>
+    <title><![CDATA[JS的深拷贝与浅拷贝]]></title>
+    <url>%2FJS%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D%2F</url>
+    <content type="text"><![CDATA[深拷贝：1arr1 = JSON.parse(JSON.stringify(arr2))修改arr2，不会影响到arr1。因为arr1和arr2指向不同的地址。浅拷贝：1arr1 = arr2修改arr2，arr1会改变。因为arr1和arr2指向同一的地址。]]></content>
       <categories>
         <category>JS</category>
       </categories>
@@ -310,9 +322,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[JS的深拷贝与浅拷贝]]></title>
-    <url>%2FJS%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D%2F</url>
-    <content type="text"><![CDATA[深拷贝：1arr1 = JSON.parse(JSON.stringify(arr2))修改arr2，不会影响到arr1。因为arr1和arr2指向不同的地址。浅拷贝：1arr1 = arr2修改arr2，arr1会改变。因为arr1和arr2指向同一的地址。]]></content>
+    <title><![CDATA[JS检测对象中是否存在某个属性]]></title>
+    <url>%2FJS%E6%A3%80%E6%B5%8B%E5%AF%B9%E8%B1%A1%E4%B8%AD%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%2F</url>
+    <content type="text"><![CDATA[使用in关键字该方法可以判断对象的自有属性和继承来的属性是否存在。1234var o=&#123;x:1&#125;;"x" in o; //true，自有属性存在"y" in o; //false"toString" in o; //true，是一个继承属性使用对象的hasOwnProperty()方法该方法只能判断自有属性是否存在，对于继承属性会返回false。1234var o=&#123;x:1&#125;;o.hasOwnProperty("x"); //true，自有属性中有xo.hasOwnProperty("y"); //false，自有属性中不存在yo.hasOwnProperty("toString"); //false，这是一个继承属性，但不是自有属性使用undefined判断自有属性和继承属性均可判断。1234var o=&#123;x:1&#125;;o.x!==undefined; //trueo.y!==undefined; //falseo.toString!==undefined //true该方法存在一个问题，如果属性的值就是undefined的话，该方法不能返回想要的结果，如下:1234var o=&#123;x:undefined&#125;;o.x!==undefined; //false，属性存在，但值是undefinedo.y!==undefined; //falseo.toString!==undefined //true在条件语句中判断12var o=&#123;&#125;;if(o.x) o.x+=1; //如果x是undefine,null,false," ",0或NaN,它将保持不变]]></content>
       <categories>
         <category>JS</category>
       </categories>
@@ -328,8 +340,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>软件分享</tag>
         <tag>Mac</tag>
+        <tag>软件分享</tag>
       </tags>
   </entry>
   <entry>
@@ -406,8 +418,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>软件分享</tag>
         <tag>Mac</tag>
+        <tag>软件分享</tag>
       </tags>
   </entry>
   <entry>
@@ -506,14 +518,14 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>软件分享</tag>
         <tag>Mac</tag>
+        <tag>软件分享</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Perl处理Excel]]></title>
-    <url>%2FPerl%E5%A4%84%E7%90%86Excel%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445use FindBin qw($Bin);use Win32::OLE qw(in with);use Win32::OLE::Const 'Microsoft Excel';#判断excel是否已经打开my $isOpen = 1; #已经打开if(rename $Bin."/".$file,$Bin."/re-".$file)&#123;rename $Bin."/re-".$file,$Bin."/".$file;$isOpen = 0; #未打开&#125;my $Excel = Win32::OLE-&gt;GetActiveObject('Excel.Application') || Win32::OLE-&gt;new('Excel.Application', 'Quit');#不显示警告窗口$Excel-&gt;&#123;DisplayAlerts&#125; = 0;my $Book = $Excel-&gt;Workbooks-&gt;Open($file);my $Sheet = $Book-&gt;Worksheets(1); #my $Sheet = $Book-&gt;Worksheets($sheetName); #my $SheetName = $Book-&gt;Worksheets(1)-&gt;&#123;Name&#125;; my $maxRow = $Sheet-&gt;UsedRange-&gt;Rows-&gt;Count;my $maxCol = $Sheet-&gt;UsedRange-&gt;Columns-&gt;Count;foreach my $row(1..$maxRow)&#123;foreach my $col(1..$maxCol)&#123;#隐藏的单元格，过滤next if $Sheet-&gt;Range("$row:$row")-&gt;EntireRow-&gt;&#123;Hidden&#125;;my $value = $Sheet-&gt;Cells($row,$col)-&gt;&#123;Value&#125;;$Sheet-&gt;Cells($row,$col)-&gt;Interior-&gt;&#123;Color&#125; = $InColor;$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Bold&#125; = "True";$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Italic&#125; = "True";$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Underline&#125; = xlUnderlineStyleSingle;$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Size&#125; = 8;$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Name&#125; = "Arial";$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;ColorIndex&#125; = 4;$sheet -&gt; Range('A:A') -&gt; &#123;ColumnWidth&#125; = 9.14;$sheet -&gt; Range("8:8") -&gt; &#123;RowHeight&#125; = 30;&#125; &#125;$Book-&gt;Save();$Book-&gt;Close();$Excel-&gt;Quit();]]></content>
+    <title><![CDATA[Perl处理文件及文件夹]]></title>
+    <url>%2FPerl%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6%E5%8F%8A%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627use FindBin qw($Bin);#遍历文件夹my $fileReportDir = $Bin; #出报告所在的文件夹地址if(-e $fileReportDir)&#123;opendir DIR, $fileReportDir || die "Error in opening dir $fileReportDir\n";while( my $file = readdir(DIR))&#123;next if $file eq ".";next if $file eq "..";my $fileAll = $fileReportDir."/".$file;if(!unlink($fileAll))&#123;print "=====程序终止！=====\n删除表格（".$fileAll."）失败，请手动删除\n"; #保留黑框system pause;#程序停止运行die; &#125; &#125; closedir DIR;&#125;#读取文件内容open FILE, "&lt;$file" || die "Not Found file: $file\n";while (&lt;FILE&gt;)&#123;my ($gene,$chr) = (split /\t/,$_)[0,1];&#125;close FILE;]]></content>
       <categories>
         <category>Perl</category>
       </categories>
@@ -522,9 +534,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Perl处理文件及文件夹]]></title>
-    <url>%2FPerl%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6%E5%8F%8A%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627use FindBin qw($Bin);#遍历文件夹my $fileReportDir = $Bin; #出报告所在的文件夹地址if(-e $fileReportDir)&#123;opendir DIR, $fileReportDir || die "Error in opening dir $fileReportDir\n";while( my $file = readdir(DIR))&#123;next if $file eq ".";next if $file eq "..";my $fileAll = $fileReportDir."/".$file;if(!unlink($fileAll))&#123;print "=====程序终止！=====\n删除表格（".$fileAll."）失败，请手动删除\n"; #保留黑框system pause;#程序停止运行die; &#125; &#125; closedir DIR;&#125;#读取文件内容open FILE, "&lt;$file" || die "Not Found file: $file\n";while (&lt;FILE&gt;)&#123;my ($gene,$chr) = (split /\t/,$_)[0,1];&#125;close FILE;]]></content>
+    <title><![CDATA[Perl处理Excel]]></title>
+    <url>%2FPerl%E5%A4%84%E7%90%86Excel%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627282930313233343536373839404142434445use FindBin qw($Bin);use Win32::OLE qw(in with);use Win32::OLE::Const 'Microsoft Excel';#判断excel是否已经打开my $isOpen = 1; #已经打开if(rename $Bin."/".$file,$Bin."/re-".$file)&#123;rename $Bin."/re-".$file,$Bin."/".$file;$isOpen = 0; #未打开&#125;my $Excel = Win32::OLE-&gt;GetActiveObject('Excel.Application') || Win32::OLE-&gt;new('Excel.Application', 'Quit');#不显示警告窗口$Excel-&gt;&#123;DisplayAlerts&#125; = 0;my $Book = $Excel-&gt;Workbooks-&gt;Open($file);my $Sheet = $Book-&gt;Worksheets(1); #my $Sheet = $Book-&gt;Worksheets($sheetName); #my $SheetName = $Book-&gt;Worksheets(1)-&gt;&#123;Name&#125;; my $maxRow = $Sheet-&gt;UsedRange-&gt;Rows-&gt;Count;my $maxCol = $Sheet-&gt;UsedRange-&gt;Columns-&gt;Count;foreach my $row(1..$maxRow)&#123;foreach my $col(1..$maxCol)&#123;#隐藏的单元格，过滤next if $Sheet-&gt;Range("$row:$row")-&gt;EntireRow-&gt;&#123;Hidden&#125;;my $value = $Sheet-&gt;Cells($row,$col)-&gt;&#123;Value&#125;;$Sheet-&gt;Cells($row,$col)-&gt;Interior-&gt;&#123;Color&#125; = $InColor;$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Bold&#125; = "True";$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Italic&#125; = "True";$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Underline&#125; = xlUnderlineStyleSingle;$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Size&#125; = 8;$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;Name&#125; = "Arial";$sheet -&gt; Range("G7:H7") -&gt; Font -&gt; &#123;ColorIndex&#125; = 4;$sheet -&gt; Range('A:A') -&gt; &#123;ColumnWidth&#125; = 9.14;$sheet -&gt; Range("8:8") -&gt; &#123;RowHeight&#125; = 30;&#125; &#125;$Book-&gt;Save();$Book-&gt;Close();$Excel-&gt;Quit();]]></content>
       <categories>
         <category>Perl</category>
       </categories>
