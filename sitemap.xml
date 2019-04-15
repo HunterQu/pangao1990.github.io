@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.pangao.vip/Python%E4%BD%BF%E7%94%A8POP3%E5%92%8CSMTP%E5%8D%8F%E8%AE%AE%E6%94%B6%E5%8F%91%E9%82%AE%E4%BB%B6/</loc>
+    
+    <lastmod>2019-04-15T15:04:37.110Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.pangao.vip/Python%E4%B8%AD%E7%94%A8OpenPyXL%E5%A4%84%E7%90%86Excel%E8%A1%A8%E6%A0%BC/</loc>
     
     <lastmod>2019-04-15T07:18:08.074Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://blog.pangao.vip/Python%E4%B8%AD%E5%85%B3%E4%BA%8E++%E5%92%8C%E2%80%94%EF%BC%88%E8%87%AA%E5%A2%9E%E5%92%8C%E8%87%AA%E5%87%8F%EF%BC%89%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
     
     <lastmod>2019-04-15T06:30:02.876Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.pangao.vip/Python%E4%BD%BF%E7%94%A8POP3%E5%92%8CSMTP%E5%8D%8F%E8%AE%AE%E6%94%B6%E5%8F%91%E9%82%AE%E4%BB%B6/</loc>
-    
-    <lastmod>2019-04-14T06:15:16.763Z</lastmod>
     
   </url>
   

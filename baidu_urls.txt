@@ -1,6 +1,6 @@
+https://blog.pangao.vip/Python使用POP3和SMTP协议收发邮件/
 https://blog.pangao.vip/Python中关于++和—（自增和自减）的理解/
 https://blog.pangao.vip/Python使用内置urllib模块或第三方库requests访问网络资源/
-https://blog.pangao.vip/Python使用POP3和SMTP协议收发邮件/
 https://blog.pangao.vip/Python读写文件/
 https://blog.pangao.vip/Python操作目录，如：获取当前工作目录，获取执行命令的位置，路径拼接，路径拆分，文件重命名，删除文件，复制文件/
 https://blog.pangao.vip/Python中用OpenPyXL处理Excel表格/
