@@ -1,3 +1,4 @@
+https://blog.pangao.vip/Python环境搭建及模块安装/
 https://blog.pangao.vip/Python使用POP3和SMTP协议收发邮件/
 https://blog.pangao.vip/Python中关于++和—（自增和自减）的理解/
 https://blog.pangao.vip/Python使用内置urllib模块或第三方库requests访问网络资源/
