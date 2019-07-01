@@ -1,3 +1,3 @@
-// build time:Mon Jun 17 2019 09:32:50 GMT+0800 (GMT+08:00)
+// build time:Mon Jul 01 2019 11:04:31 GMT+0800 (GMT+08:00)
 const live2d_path="/live2d/";$("<link>").attr({href:live2d_path+"waifu.css",rel:"stylesheet",type:"text/css"}).appendTo("head");$.ajax({url:live2d_path+"live2d.min.js",dataType:"script",cache:true,async:false});$.ajax({url:live2d_path+"waifu-tips.js",dataType:"script",cache:true,async:false});$(window).on("load",function(){initWidget(live2d_path+"waifu-tips.json","https://live2d.fghrsh.net/api")});
 //rebuild by neat 
