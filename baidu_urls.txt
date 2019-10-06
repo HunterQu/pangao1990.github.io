@@ -1,3 +1,4 @@
+https://blog.pangao.vip/Windows上安装Python-Python入门到精通/
 https://blog.pangao.vip/选择Python版本-Python入门到精通/
 https://blog.pangao.vip/Python简介-Python入门到精通/
 https://blog.pangao.vip/上传代码到github报Connection_timed_out错误/
