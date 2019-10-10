@@ -1,3 +1,4 @@
+https://blog.pangao.vip/Python3基础概念-Python入门到精通/
 https://blog.pangao.vip/使用编辑器-Python入门到精通/
 https://blog.pangao.vip/Mac上安装Python-Python入门到精通/
 https://blog.pangao.vip/Windows上安装Python-Python入门到精通/
