@@ -71,6 +71,6 @@ https://blog.pangao.vip/生物信息分析中的测序概念/
 https://blog.pangao.vip/生物信息分析中的reads是什么/
 https://blog.pangao.vip/外显子、内含子、mRNA、CDS、ORF的区别与联系/
 https://blog.pangao.vip/ParallelsDesktop-虚拟机Mac绿色版/
-https://blog.pangao.vip/Perl处理Excel/
 https://blog.pangao.vip/Perl处理文件及文件夹/
+https://blog.pangao.vip/Perl处理Excel/
 https://blog.pangao.vip/Perl的简单联网操作/
