@@ -1,7 +1,7 @@
-https://blog.pangao.vip/Python3数据类型之字符串-Python入门到精通/
-https://blog.pangao.vip/Python3解释器-Python入门到精通/
-https://blog.pangao.vip/Python3数据类型之数字-Python入门到精通/
 https://blog.pangao.vip/Python3运算符-Python入门到精通/
+https://blog.pangao.vip/Python3数据类型之字符串-Python入门到精通/
+https://blog.pangao.vip/Python3数据类型之数字-Python入门到精通/
+https://blog.pangao.vip/Python3解释器-Python入门到精通/
 https://blog.pangao.vip/Python3基本数据类型-Python入门到精通/
 https://blog.pangao.vip/Python3基础概念-Python入门到精通/
 https://blog.pangao.vip/使用编辑器-Python入门到精通/
