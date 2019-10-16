@@ -1,3 +1,4 @@
+https://blog.pangao.vip/Python3列表-Python入门到精通/
 https://blog.pangao.vip/Python3运算符-Python入门到精通/
 https://blog.pangao.vip/Python3数据类型之字符串-Python入门到精通/
 https://blog.pangao.vip/Python3数据类型之数字-Python入门到精通/
