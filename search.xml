@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python3集合-Python入门到精通]]></title>
+    <url>%2FPython3%E9%9B%86%E5%90%88-Python%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%2F</url>
+    <content type="text"><![CDATA[集合集合（set）是一个无序、不重复的元素序列。这里我们来和列表、元组对比一下：列表是一组有序的元素集合。元组也是一组有序的元素集合，但元素不可修改。集合的基本操作创建集合使用大括号 { } 创建集合。但不能使用 {} 创建一个空集合，因为 {} 创建的是空字典。12345&gt;&gt;&gt; student = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; student2 = &#123;&#125;&gt;&gt;&gt; type(student2)&lt;class &apos;dict&apos;&gt;也可以使用 set() 函数创建集合。 直接使用 set() 创建的是空集合，插入字符串、列表、元组等参数就可以创建非空集合。1234567891011&gt;&gt;&gt; a = set((1, 2, 3))&gt;&gt;&gt; a&#123;1, 2, 3&#125;&gt;&gt;&gt; a = set([1, 2, 3, 1, 2, 3])&gt;&gt;&gt; a&#123;1, 2, 3&#125;&gt;&gt;&gt; a = set(&apos;潘高陪你学编程&apos;)&gt;&gt;&gt; a&#123;&apos;程&apos;, &apos;潘&apos;, &apos;你&apos;, &apos;编&apos;, &apos;学&apos;, &apos;高&apos;, &apos;陪&apos;&#125;我们可以看到集合的两个特点：集合会自动将重复元素剔除。元组、列表是“按顺序”打印出来的，字符串是无序的。所以，集合不一定会原样打印出来，因为集合是无序的。添加元素s.add(x)将变量 x 看作一个整体添加到集合 s 中，集合只增加一个数据项。如果元素已存在，则不进行任何操作。1234&gt;&gt;&gt; student = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; student.add(&apos;Lucy&apos;)&gt;&gt;&gt; student&#123;&apos;潘高&apos;, &apos;Mary&apos;, &apos;Lucy&apos;, &apos;Tom&apos;&#125;s.update(x)变量 x 可以是列表、元组、字典等，可以是多个变量，用逗号分开。将所有的变量分隔成单个字符插入集合中。1234&gt;&gt;&gt; student = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; student.update(&apos;Lucy&apos;, &apos;XML&apos;)&gt;&gt;&gt; student&#123;&apos;c&apos;, &apos;y&apos;, &apos;u&apos;, &apos;潘高&apos;, &apos;M&apos;, &apos;L&apos;, &apos;X&apos;, &apos;Mary&apos;, &apos;Tom&apos;&#125;移除元素s.remove(x)将元素 x 从集合 s 中移除。如果元素不存在，则报错。12345678910&gt;&gt;&gt; student = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; student.remove(&apos;潘高&apos;)&gt;&gt;&gt; student&#123;&apos;Mary&apos;, &apos;Tom&apos;&#125;&gt;&gt;&gt; student = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; student.remove(&apos;Lucy&apos;)Traceback (most recent call last): File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;KeyError: &apos;Lucy&apos;s.discard(x)将元素 x 从集合 s 中移除。即使元素不存在，也并不会报错。1234&gt;&gt;&gt; student = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; student.discard(&apos;Lucy&apos;)&gt;&gt;&gt; student&#123;&apos;潘高&apos;, &apos;Mary&apos;, &apos;Tom&apos;&#125;s.pop()删除集合中的一个元素，并返回删除的元素。只当集合元素是字符串类型时，并且在脚本运行（CMD）时才会随机删除，在交互式环境（IDE）中是保持删除左边第一个元素的。如果集合元素是其他数据类型时，是删除左边第一个元素的。如果删除的集合为空，就会报错。12345&gt;&gt;&gt; student = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; student&#123;&apos;潘高&apos;, &apos;Mary&apos;, &apos;Tom&apos;&#125;&gt;&gt;&gt; student.pop()&apos;潘高&apos;集合间的运算表达式含义a - b集合a中包含而集合b中不包含的元素a I b集合a和b的所有元素a &amp; b集合a和b的共同元素a ^ b不同时包含于集合a和b的元素12345678910&gt;&gt;&gt; s1 = &#123;&apos;Tom&apos;, &apos;Mary&apos;, &apos;潘高&apos;&#125;&gt;&gt;&gt; s2 = &#123;&apos;Tom&apos;, &apos;Lucy&apos;&#125;&gt;&gt;&gt; s1 - s2&#123;&apos;潘高&apos;, &apos;Mary&apos;&#125;&gt;&gt;&gt; s1 | s2&#123;&apos;Lucy&apos;, &apos;潘高&apos;, &apos;Mary&apos;, &apos;Tom&apos;&#125;&gt;&gt;&gt; s1 &amp; s2&#123;&apos;Tom&apos;&#125;&gt;&gt;&gt; s1 ^ s2&#123;&apos;潘高&apos;, &apos;Mary&apos;, &apos;Lucy&apos;&#125;更多编程教学请关注公众号：潘高陪你学编程]]></content>
+      <categories>
+        <category>Python</category>
+        <category>Python入门到精通</category>
+      </categories>
+      <tags>
+        <tag>Python入门到精通</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Python3元组-Python入门到精通]]></title>
     <url>%2FPython3%E5%85%83%E7%BB%84-Python%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%2F</url>
     <content type="text"><![CDATA[元组，是组合的组，不是祖先的祖。那个是糕点，我们现在要介绍的是编程概念。什么是元组？元组，就是一组元素。元组和我们上一章介绍的列表很类似。不同的是，元组是用小括号串起来，而列表则是用中括号。还有一个最大的区别，就是元组不能修改。创建元组我们来看看如何创建元组。直接将一个元组赋值给变量Tup，就完成了元组的创建。1Tup = (22, &apos;Python&apos;, &apos;潘高&apos;, &apos;陪你&apos;, &apos;学编程&apos;)当然了，也可以不要小括号。不过我还是推荐使用小括号，这样比较容易区分。1Tup2 = 22, &apos;Python&apos;, &apos;潘高&apos;, &apos;陪你&apos;, &apos;学编程&apos;获取元组的元素也是和列表的操作一样。1234&gt;&gt;&gt; Tup[1]&apos;Python&apos;&gt;&gt;&gt; Tup[2:](&apos;潘高&apos;, &apos;陪你&apos;, &apos;学编程&apos;)修改元组我们已经介绍了，元组是不能修改的。那如果强制修改会怎么样呢？123456Tup = (22, &apos;Python&apos;, &apos;潘高&apos;, &apos;陪你&apos;, &apos;学编程&apos;)&gt;&gt;&gt; Tup[4] = &apos;学Python3&apos;Traceback (most recent call last): File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;TypeError: &apos;tuple&apos; object does not support item assignment我们看到，强制修改元组的第5项，程序就报错了。提示元组这种数据类型无法修改数据项。那么，元组不可修改，有什么优势呢？元组不可修改，操作比较少，由特殊构造决定了他的访问速度比列表快很多。再加上不可修改，存储就更加安全了。元组的简单操作元组的操作和列表一样。表达式描述结果(1, 2, 3) + (4, 5, 6)组合(1, 2, 3, 4, 5, 6)(‘Python’) * 3重复(‘Python’, ‘Python’, ‘Python’)3 in (1, 2, 3)元素是否在元组中TrueTup[-2]倒数第几个元素‘陪你’Tup[2:]索引2开始所有的元素[‘潘高’, ‘陪你’, ‘学编程’]。。。。。。。。。常用函数元组的常用函数和列表一样。函数描述len(tuple)元组元素个数max(tuple)返回元组元素最大值min(tuple)返回元组元素最小值tuple(seq)将列表强制转换为元组。。。。。。更多编程教学请关注公众号：潘高陪你学编程]]></content>
@@ -164,8 +176,8 @@
         <category>个人博客</category>
       </categories>
       <tags>
-        <tag>Git</tag>
         <tag>Mac</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -409,7 +421,7 @@
   <entry>
     <title><![CDATA[Markdown从入门到精通]]></title>
     <url>%2FMarkdown%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%2F</url>
-    <content type="text"><![CDATA[标题主标题:【语法】1主标题文字 (空行) ==（两个及以上）【示例】12主标题文字（最高阶标题）==主标题文字（最高阶标题）【说明】相当于H1大纲标题效果，一般在首行应用和表示副标题：【语法】1副标题文字 (空行) --(减号两个及以上)【示例】12主标题文字（第二阶标题）--主标题文字（第二阶标题）【说明】相当于H2大纲标题效果H1~H6大纲标题:【语法】1# (空格)文字1-6等级分别在文字前加对应数量#，后面的#为可选，不加效果也一样。【示例】12345678910111213# 大纲标题文字 H1（等同 主标题）## 大纲标题文字 H2（等同 副标题）### 大纲标题文字 H3#### 大纲标题文字 H4##### 大纲标题文字 H5###### 大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）大纲标题文字 H1（等同 主标题）大纲标题文字 H2（等同 副标题）大纲标题文字 H3大纲标题文字 H4大纲标题文字 H5大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）【说明】最多6个等级的大纲标题，后面加上同等数量“（空格）#”效果也一样标签【语法】1TAGS：内容 或 标签： 内容在编辑区任意行的列首位置输入tags/标签：关键词1 关键词2 ， 多个用空格隔开。【示例】1标签：教程 Markdown标签：教程 Markdown目录（大纲）导航【语法】1在段落中填写 [TOC] （toc小写也可以）以显示各标题为结构的目录（大纲）导航。强调或突出斜体：【语法】1_斜体_ 或 *斜体* 在文字两边加 单下底线 或 单星号【示例】1_斜体_ 或 *斜体*_斜体_ 或 斜体粗体：【语法】1__粗体__ 或 **粗体** 在文字两边加 双下底线 或 双星号【示例】1__粗体__ 或 **粗体**粗体 或 粗体删除线：【语法】1~~删除线~~ 在文字两边加 双波浪号【示例】1这是带有 ~~删除线~~ 的文字这是带有 删除线 的文字【说明】快速记忆：单斜双粗两波删下划线：【语法】1在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）【示例】1234这是下划线---你看到了吗？这是下划线你看到了吗？段落与分割普通段落：【语法】1用空行分隔，连着多个空行也是一个效果，只能空一行的间距。【示例】123456这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。水平分割线：【语法】13个及以上的 星号***或 减号---或 下底线___来表示。【示例】1***【说明】建议只固定选用一个，如三个星号***为标准，用减号—容易和副标题搞混。强制换行：【语法】1在行尾输入两个空格【示例】123这句话(空格)(空格)会(空格)(空格)换行这句话会换行【说明】强制换行比输入回车换行的行间距小很多链接网页链接（内联风格）：【语法】1[链接文字](http://链接地址)&quot;（空格）鼠标悬停显示文字（可选）&quot;“（空格）鼠标悬停显示文字”非必须项，在pc浏览器中能看到效果，手机移动端因无鼠标效果无法直接体现。【示例】1这是去往[本人博客](https://pangao1990.github.io)的链接。这是去往本人博客的链接。链接的快速定义：【语法】1234567前面文档中引用链接的语法为：[链接文字][id]前后id要匹配一致，一般为数字，这样可以在文档的其他任意地方快速插入这个链接。后面定义链接的语法为：[id]:（空格）http://链接地址（空格）&quot;鼠标悬停显示文字（可选）&quot;后面的语法必须在列首并单独一行，适合前期不知道网址，后面再加入的情况。【示例】123这是去往[本人博客][1]的链接。[1]: https://pangao1990.github.io这是去往本人博客的链接。链接的自动展示：直接输入链接地址，可以直接识别。https://pangao1990.github.ioEmail 链接：【语法】1直接&lt;邮箱号地址&gt;即可【示例】1我的email地址是：&lt;pangao1990@qq.com&gt;。我的email地址是：&#112;&#x61;&#x6e;&#x67;&#97;&#111;&#x31;&#57;&#57;&#x30;&#x40;&#x71;&#113;&#x2e;&#x63;&#x6f;&#x6d;。列表有序列表：【语法】1直接数字加英文句点加空格（最多三个空格）和文字【示例】有序单层列表123520. 列表项1（第一项数字一定要为“520”）201314. 列表项2（其实我前面的标的数字是“201314”）20161130. 列表项3（其实我前面的标的数字是“20161130”列表项1（第一项数字一定要为“520”）列表项2（其实我前面的标的数字是“201314”）列表项3（其实我前面的标的数字是“20161130”【说明】后面的不必在意数字从小到大的排序，显示时会自动排序，有智能的乱序纠正功能，非常贴心。数字前面加了空格，排序会变成罗马数字形式。无序列表:【语法】1文字前面加 星号空格*（空格）或 短横空格-（空格）或 加号+（空格）表示【示例】无序单层列表12- 列表项1- 列表项2列表项1列表项2多重列表:【语法】1单层列表项缩进1个tab就可以往后面叠加子层的列表【示例】12345678910111. 首层列表项（有序）2. 第二层列表项1(嵌套的列表可以是有序的 )2. 第二层列表项2(格式和正常的有序、无序列表没有差异)3. 第三层列表项(tab)1. 三层的子列表项1(tab)2. 三层的子列表项2- 首层列表项第四层列表项2（无序）- 嵌套的列表可以是无序的(tab)- 子列表项 1（加了1个tab缩进）(tab)(tab)- 子列表项 2（加了2个tab缩进）(tab)(tab)(tab)- 子列表项 4（加了3个tab缩进）首层列表项（有序）第二层列表项1(嵌套的列表可以是有序的 )第二层列表项2(格式和正常的有序、无序列表没有差异)第三层列表项三层的子列表项1三层的子列表项2首层列表项第四层列表项2（无序）嵌套的列表可以是无序的子列表项 1（加了1个tab缩进）子列表项 2（加了2个tab缩进）子列表项 4（加了3个tab缩进）引用文字引用：【语法】1段落前面添加大于号和空格&gt; （空格），就能够形成引用段落。【示例】123&gt;(空格)青松(空格)(空格)大雪压青松，青松挺且直。(空格)(空格)要知松高洁，待到雪化时。青松大雪压青松，青松挺且直。要知松高洁，待到雪化时。添加影像附件插入图片:【语法】1![图片描述](图片网络/本地图片地址)（空格）“鼠标悬停显示文字（可选）”【说明】和网页链接用法一致。代码块行内（内联）代码【语法】12使用`内容` 表示行内 代码块。即 在文字左右使用反引号包含（键盘数字“1”前面的波浪号大写状态时能打出）。【示例】1我是一只`小鸭子`，咿呀咿呀哟。我是一只小鸭子，咿呀咿呀哟。【说明】和标签/关键词的效果差不多，还可用于如按键Ctrl+F4，字母B，单词F**K、短句Are you ok？等诸多行的应用场景。能起到强调区分的作用。段落文本代码块:【语法】1每行缩进4个空格或 1个 Tab表示【示例】1(tab)这是一个代码块。这是一个代码块。]]></content>
+    <content type="text"><![CDATA[标题主标题:【语法】1主标题文字 (空行) ==（两个及以上）【示例】12主标题文字（最高阶标题）==主标题文字（最高阶标题）【说明】相当于H1大纲标题效果，一般在首行应用和表示副标题：【语法】1副标题文字 (空行) --(减号两个及以上)【示例】12主标题文字（第二阶标题）--主标题文字（第二阶标题）【说明】相当于H2大纲标题效果H1~H6大纲标题:【语法】1# (空格)文字1-6等级分别在文字前加对应数量#，后面的#为可选，不加效果也一样。【示例】12345678910111213# 大纲标题文字 H1（等同 主标题）## 大纲标题文字 H2（等同 副标题）### 大纲标题文字 H3#### 大纲标题文字 H4##### 大纲标题文字 H5###### 大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）大纲标题文字 H1（等同 主标题）大纲标题文字 H2（等同 副标题）大纲标题文字 H3大纲标题文字 H4大纲标题文字 H5大纲标题文字 H6####### 大纲标题文字 H7（最多6阶）【说明】最多6个等级的大纲标题，后面加上同等数量“（空格）#”效果也一样标签【语法】1TAGS：内容 或 标签： 内容在编辑区任意行的列首位置输入tags/标签：关键词1 关键词2 ， 多个用空格隔开。【示例】1标签：教程 Markdown标签：教程 Markdown目录（大纲）导航【语法】1在段落中填写 [TOC] （toc小写也可以）以显示各标题为结构的目录（大纲）导航。强调或突出斜体：【语法】1_斜体_ 或 *斜体* 在文字两边加 单下底线 或 单星号【示例】1_斜体_ 或 *斜体*_斜体_ 或 斜体粗体：【语法】1__粗体__ 或 **粗体** 在文字两边加 双下底线 或 双星号【示例】1__粗体__ 或 **粗体**粗体 或 粗体删除线：【语法】1~~删除线~~ 在文字两边加 双波浪号【示例】1这是带有 ~~删除线~~ 的文字这是带有 删除线 的文字【说明】快速记忆：单斜双粗两波删下划线：【语法】1在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）【示例】1234这是下划线---你看到了吗？这是下划线你看到了吗？段落与分割普通段落：【语法】1用空行分隔，连着多个空行也是一个效果，只能空一行的间距。【示例】123456这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。这是首行文字这是尾行文字，实际中间我空了2行，但还是只显示空了一行的效果。【说明】有的语法要用到空行才有效果（如主标题，列表），不空行的话默认又是会跟随上面语法特征（如表格语法前面就要空行后才有效果），应用时多加注意。水平分割线：【语法】13个及以上的 星号***或 减号---或 下底线___来表示。【示例】1***【说明】建议只固定选用一个，如三个星号***为标准，用减号—容易和副标题搞混。强制换行：【语法】1在行尾输入两个空格【示例】123这句话(空格)(空格)会(空格)(空格)换行这句话会换行【说明】强制换行比输入回车换行的行间距小很多链接网页链接（内联风格）：【语法】1[链接文字](http://链接地址)&quot;（空格）鼠标悬停显示文字（可选）&quot;“（空格）鼠标悬停显示文字”非必须项，在pc浏览器中能看到效果，手机移动端因无鼠标效果无法直接体现。【示例】1这是去往[本人博客](https://pangao1990.github.io)的链接。这是去往本人博客的链接。链接的快速定义：【语法】1234567前面文档中引用链接的语法为：[链接文字][id]前后id要匹配一致，一般为数字，这样可以在文档的其他任意地方快速插入这个链接。后面定义链接的语法为：[id]:（空格）http://链接地址（空格）&quot;鼠标悬停显示文字（可选）&quot;后面的语法必须在列首并单独一行，适合前期不知道网址，后面再加入的情况。【示例】123这是去往[本人博客][1]的链接。[1]: https://pangao1990.github.io这是去往本人博客的链接。链接的自动展示：直接输入链接地址，可以直接识别。https://pangao1990.github.ioEmail 链接：【语法】1直接&lt;邮箱号地址&gt;即可【示例】1我的email地址是：&lt;pangao1990@qq.com&gt;。我的email地址是：&#112;&#97;&#110;&#x67;&#x61;&#x6f;&#49;&#x39;&#x39;&#48;&#x40;&#113;&#113;&#46;&#99;&#x6f;&#109;。列表有序列表：【语法】1直接数字加英文句点加空格（最多三个空格）和文字【示例】有序单层列表123520. 列表项1（第一项数字一定要为“520”）201314. 列表项2（其实我前面的标的数字是“201314”）20161130. 列表项3（其实我前面的标的数字是“20161130”列表项1（第一项数字一定要为“520”）列表项2（其实我前面的标的数字是“201314”）列表项3（其实我前面的标的数字是“20161130”【说明】后面的不必在意数字从小到大的排序，显示时会自动排序，有智能的乱序纠正功能，非常贴心。数字前面加了空格，排序会变成罗马数字形式。无序列表:【语法】1文字前面加 星号空格*（空格）或 短横空格-（空格）或 加号+（空格）表示【示例】无序单层列表12- 列表项1- 列表项2列表项1列表项2多重列表:【语法】1单层列表项缩进1个tab就可以往后面叠加子层的列表【示例】12345678910111. 首层列表项（有序）2. 第二层列表项1(嵌套的列表可以是有序的 )2. 第二层列表项2(格式和正常的有序、无序列表没有差异)3. 第三层列表项(tab)1. 三层的子列表项1(tab)2. 三层的子列表项2- 首层列表项第四层列表项2（无序）- 嵌套的列表可以是无序的(tab)- 子列表项 1（加了1个tab缩进）(tab)(tab)- 子列表项 2（加了2个tab缩进）(tab)(tab)(tab)- 子列表项 4（加了3个tab缩进）首层列表项（有序）第二层列表项1(嵌套的列表可以是有序的 )第二层列表项2(格式和正常的有序、无序列表没有差异)第三层列表项三层的子列表项1三层的子列表项2首层列表项第四层列表项2（无序）嵌套的列表可以是无序的子列表项 1（加了1个tab缩进）子列表项 2（加了2个tab缩进）子列表项 4（加了3个tab缩进）引用文字引用：【语法】1段落前面添加大于号和空格&gt; （空格），就能够形成引用段落。【示例】123&gt;(空格)青松(空格)(空格)大雪压青松，青松挺且直。(空格)(空格)要知松高洁，待到雪化时。青松大雪压青松，青松挺且直。要知松高洁，待到雪化时。添加影像附件插入图片:【语法】1![图片描述](图片网络/本地图片地址)（空格）“鼠标悬停显示文字（可选）”【说明】和网页链接用法一致。代码块行内（内联）代码【语法】12使用`内容` 表示行内 代码块。即 在文字左右使用反引号包含（键盘数字“1”前面的波浪号大写状态时能打出）。【示例】1我是一只`小鸭子`，咿呀咿呀哟。我是一只小鸭子，咿呀咿呀哟。【说明】和标签/关键词的效果差不多，还可用于如按键Ctrl+F4，字母B，单词F**K、短句Are you ok？等诸多行的应用场景。能起到强调区分的作用。段落文本代码块:【语法】1每行缩进4个空格或 1个 Tab表示【示例】1(tab)这是一个代码块。这是一个代码块。]]></content>
       <categories>
         <category>个人博客</category>
       </categories>
@@ -536,8 +548,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>软件分享</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -548,8 +560,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>软件分享</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -619,8 +631,8 @@
         <category>个人博客</category>
       </categories>
       <tags>
-        <tag>Git</tag>
         <tag>Mac</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -665,14 +677,14 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>软件分享</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[JS的深拷贝与浅拷贝]]></title>
-    <url>%2FJS%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D%2F</url>
-    <content type="text"><![CDATA[深拷贝：1arr1 = JSON.parse(JSON.stringify(arr2))修改arr2，不会影响到arr1。因为arr1和arr2指向不同的地址。浅拷贝：1arr1 = arr2修改arr2，arr1会改变。因为arr1和arr2指向同一的地址。]]></content>
+    <title><![CDATA[JS检测对象中是否存在某个属性]]></title>
+    <url>%2FJS%E6%A3%80%E6%B5%8B%E5%AF%B9%E8%B1%A1%E4%B8%AD%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%2F</url>
+    <content type="text"><![CDATA[使用in关键字该方法可以判断对象的自有属性和继承来的属性是否存在。1234var o=&#123;x:1&#125;;"x" in o; //true，自有属性存在"y" in o; //false"toString" in o; //true，是一个继承属性使用对象的hasOwnProperty()方法该方法只能判断自有属性是否存在，对于继承属性会返回false。1234var o=&#123;x:1&#125;;o.hasOwnProperty("x"); //true，自有属性中有xo.hasOwnProperty("y"); //false，自有属性中不存在yo.hasOwnProperty("toString"); //false，这是一个继承属性，但不是自有属性使用undefined判断自有属性和继承属性均可判断。1234var o=&#123;x:1&#125;;o.x!==undefined; //trueo.y!==undefined; //falseo.toString!==undefined //true该方法存在一个问题，如果属性的值就是undefined的话，该方法不能返回想要的结果，如下:1234var o=&#123;x:undefined&#125;;o.x!==undefined; //false，属性存在，但值是undefinedo.y!==undefined; //falseo.toString!==undefined //true在条件语句中判断12var o=&#123;&#125;;if(o.x) o.x+=1; //如果x是undefine,null,false," ",0或NaN,它将保持不变]]></content>
       <categories>
         <category>JS</category>
       </categories>
@@ -681,9 +693,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[JS检测对象中是否存在某个属性]]></title>
-    <url>%2FJS%E6%A3%80%E6%B5%8B%E5%AF%B9%E8%B1%A1%E4%B8%AD%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9F%90%E4%B8%AA%E5%B1%9E%E6%80%A7%2F</url>
-    <content type="text"><![CDATA[使用in关键字该方法可以判断对象的自有属性和继承来的属性是否存在。1234var o=&#123;x:1&#125;;"x" in o; //true，自有属性存在"y" in o; //false"toString" in o; //true，是一个继承属性使用对象的hasOwnProperty()方法该方法只能判断自有属性是否存在，对于继承属性会返回false。1234var o=&#123;x:1&#125;;o.hasOwnProperty("x"); //true，自有属性中有xo.hasOwnProperty("y"); //false，自有属性中不存在yo.hasOwnProperty("toString"); //false，这是一个继承属性，但不是自有属性使用undefined判断自有属性和继承属性均可判断。1234var o=&#123;x:1&#125;;o.x!==undefined; //trueo.y!==undefined; //falseo.toString!==undefined //true该方法存在一个问题，如果属性的值就是undefined的话，该方法不能返回想要的结果，如下:1234var o=&#123;x:undefined&#125;;o.x!==undefined; //false，属性存在，但值是undefinedo.y!==undefined; //falseo.toString!==undefined //true在条件语句中判断12var o=&#123;&#125;;if(o.x) o.x+=1; //如果x是undefine,null,false," ",0或NaN,它将保持不变]]></content>
+    <title><![CDATA[JS的深拷贝与浅拷贝]]></title>
+    <url>%2FJS%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D%2F</url>
+    <content type="text"><![CDATA[深拷贝：1arr1 = JSON.parse(JSON.stringify(arr2))修改arr2，不会影响到arr1。因为arr1和arr2指向不同的地址。浅拷贝：1arr1 = arr2修改arr2，arr1会改变。因为arr1和arr2指向同一的地址。]]></content>
       <categories>
         <category>JS</category>
       </categories>
@@ -699,8 +711,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>软件分享</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -777,8 +789,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>软件分享</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -877,19 +889,8 @@
         <category>Mac软件分享</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>软件分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Perl处理文件及文件夹]]></title>
-    <url>%2FPerl%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6%E5%8F%8A%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
-    <content type="text"><![CDATA[123456789101112131415161718192021222324252627use FindBin qw($Bin);#遍历文件夹my $fileReportDir = $Bin; #出报告所在的文件夹地址if(-e $fileReportDir)&#123;opendir DIR, $fileReportDir || die "Error in opening dir $fileReportDir\n";while( my $file = readdir(DIR))&#123;next if $file eq ".";next if $file eq "..";my $fileAll = $fileReportDir."/".$file;if(!unlink($fileAll))&#123;print "=====程序终止！=====\n删除表格（".$fileAll."）失败，请手动删除\n"; #保留黑框system pause;#程序停止运行die; &#125; &#125; closedir DIR;&#125;#读取文件内容open FILE, "&lt;$file" || die "Not Found file: $file\n";while (&lt;FILE&gt;)&#123;my ($gene,$chr) = (split /\t/,$_)[0,1];&#125;close FILE;]]></content>
-      <categories>
-        <category>Perl</category>
-      </categories>
-      <tags>
-        <tag>Perl</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -899,6 +900,17 @@
       <categories>
         <category>Perl</category>
         <category>Excel</category>
+      </categories>
+      <tags>
+        <tag>Perl</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Perl处理文件及文件夹]]></title>
+    <url>%2FPerl%E5%A4%84%E7%90%86%E6%96%87%E4%BB%B6%E5%8F%8A%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
+    <content type="text"><![CDATA[123456789101112131415161718192021222324252627use FindBin qw($Bin);#遍历文件夹my $fileReportDir = $Bin; #出报告所在的文件夹地址if(-e $fileReportDir)&#123;opendir DIR, $fileReportDir || die "Error in opening dir $fileReportDir\n";while( my $file = readdir(DIR))&#123;next if $file eq ".";next if $file eq "..";my $fileAll = $fileReportDir."/".$file;if(!unlink($fileAll))&#123;print "=====程序终止！=====\n删除表格（".$fileAll."）失败，请手动删除\n"; #保留黑框system pause;#程序停止运行die; &#125; &#125; closedir DIR;&#125;#读取文件内容open FILE, "&lt;$file" || die "Not Found file: $file\n";while (&lt;FILE&gt;)&#123;my ($gene,$chr) = (split /\t/,$_)[0,1];&#125;close FILE;]]></content>
+      <categories>
+        <category>Perl</category>
       </categories>
       <tags>
         <tag>Perl</tag>
